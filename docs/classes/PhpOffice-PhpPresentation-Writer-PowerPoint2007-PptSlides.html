@@ -8,12 +8,16 @@
     <link rel="icon" href="images/favicon.ico"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
-            <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/template.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
                 <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
         <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
         <script src="js/search.js"></script>
         <script defer src="js/searchIndex.js"></script>
     </head>
@@ -48,16 +52,23 @@
     Menu
 </label>
 <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
-    
-    <section class="phpdocumentor-sidebar__category">
-        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
-                                                <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/phpoffice.html"><abbr title="\PhpOffice">PhpOffice</abbr></a></h4>
-                <ul class="phpdocumentor-list">
-                                            <li><a href="namespaces/phpoffice-phppresentation.html"><abbr title="\PhpOffice\PhpPresentation">PhpPresentation</abbr></a></li>
-                                    </ul>
-                        </section>
+                    <section class="phpdocumentor-sidebar__category">
+            <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/phpoffice.html">PhpOffice</a></h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/phpoffice-phppresentation.html">PhpPresentation</a>
+                
+            </li>
+            </ul>
 
-    
+                        </section>
+                <section class="phpdocumentor-sidebar__category">
+            <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace"><a href="packages/Application.html">Application</a></h4>
+
+                        </section>
+            
     <section class="phpdocumentor-sidebar__category">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
                 <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
@@ -87,6 +98,12 @@
         extends <a href="classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-AbstractSlide.html"><abbr title="\PhpOffice\PhpPresentation\Writer\PowerPoint2007\AbstractSlide">AbstractSlide</abbr></a>
     </span>
     
+            <div class="phpdocumentor-element__package">
+            in package
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/Application.html">Application</a></li>
+                            </ul>
+        </div>
     
     
     </h2>
@@ -94,10 +111,12 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/PptSlides.php"><a href="files/src-phppresentation-writer-powerpoint2007-pptslides.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/PptSlides.php">PptSlides.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">20</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">39</span>
+
+    </aside>
 
         
+    <section class="phpdocumentor-description"></section>
 
 
 
@@ -182,13 +201,6 @@
 </dt>
 <dd></dd>
 
-            <dt class="phpdocumentor-table-of-contents__entry -method -public">
-    <a href="classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-PptSlides.html#method_writeSlide">writeSlide()</a>
-    <span>
-                        &nbsp;: string    </span>
-</dt>
-<dd>Write slide to XML format.</dd>
-
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a href="classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-AbstractDecoratorWriter.html#method_absoluteZipPath">absoluteZipPath()</a>
     <span>
@@ -250,7 +262,7 @@
     <span>
                         &nbsp;: void    </span>
 </dt>
-<dd>Write Outline.</dd>
+<dd>Write Outline</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a href="classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-AbstractSlide.html#method_writeParagraphs">writeParagraphs()</a>
@@ -281,11 +293,18 @@
 <dd>Write Shadow.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a href="classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-AbstractSlide.html#method_writeShapeAutoShape">writeShapeAutoShape()</a>
+    <span>
+                        &nbsp;: void    </span>
+</dt>
+<dd>Write AutoShape</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a href="classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-AbstractSlide.html#method_writeShapeChart">writeShapeChart()</a>
     <span>
                         &nbsp;: void    </span>
 </dt>
-<dd>Write chart.</dd>
+<dd>Write chart</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a href="classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-AbstractSlide.html#method_writeShapeCollection">writeShapeCollection()</a>
@@ -293,13 +312,6 @@
                         &nbsp;: void    </span>
 </dt>
 <dd></dd>
-
-            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
-    <a href="classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-PptSlides.html#method_writeShapeDrawing">writeShapeDrawing()</a>
-    <span>
-                        &nbsp;: void    </span>
-</dt>
-<dd>Write pic.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a href="classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-AbstractSlide.html#method_writeShapeGroup">writeShapeGroup()</a>
@@ -335,6 +347,13 @@
                         &nbsp;: void    </span>
 </dt>
 <dd>Write txt.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -protected">
+    <a href="classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-PptSlides.html#method_writeSlide">writeSlide()</a>
+    <span>
+                        &nbsp;: string    </span>
+</dt>
+<dd>Write slide to XML format.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -protected">
     <a href="classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-PptSlides.html#method_writeSlideAnimations">writeSlideAnimations()</a>
@@ -406,8 +425,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/AbstractDecoratorWriter.php"><a href="files/src-phppresentation-writer-abstractdecoratorwriter.html"><abbr title="src/PhpPresentation/Writer/AbstractDecoratorWriter.php">AbstractDecoratorWriter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">19</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">37</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
@@ -416,8 +436,8 @@
     <span class="phpdocumentor-signature__name">$oHashTable</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -437,8 +457,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/AbstractDecoratorWriter.php"><a href="files/src-phppresentation-writer-abstractdecoratorwriter.html"><abbr title="src/PhpPresentation/Writer/AbstractDecoratorWriter.php">AbstractDecoratorWriter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">24</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">42</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
@@ -447,8 +468,8 @@
     <span class="phpdocumentor-signature__name">$oPresentation</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -468,8 +489,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/AbstractDecoratorWriter.php"><a href="files/src-phppresentation-writer-abstractdecoratorwriter.html"><abbr title="src/PhpPresentation/Writer/AbstractDecoratorWriter.php">AbstractDecoratorWriter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">47</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
@@ -478,8 +500,8 @@
     <span class="phpdocumentor-signature__name">$oZip</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -503,24 +525,23 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/AbstractDecoratorWriter.php"><a href="files/src-phppresentation-writer-abstractdecoratorwriter.html"><abbr title="src/PhpPresentation/Writer/AbstractDecoratorWriter.php">AbstractDecoratorWriter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">44</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">62</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getDrawingHashTable</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-HashTable.html"><abbr title="\PhpOffice\PhpPresentation\HashTable">HashTable</abbr></a></span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-HashTable.html"><abbr title="\PhpOffice\PhpPresentation\HashTable">HashTable</abbr></a></span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -536,24 +557,23 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/AbstractDecoratorWriter.php"><a href="files/src-phppresentation-writer-abstractdecoratorwriter.html"><abbr title="src/PhpPresentation/Writer/AbstractDecoratorWriter.php">AbstractDecoratorWriter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">62</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">80</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getPresentation</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-PhpPresentation.html"><abbr title="\PhpOffice\PhpPresentation\PhpPresentation">PhpPresentation</abbr></a></span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-PhpPresentation.html"><abbr title="\PhpOffice\PhpPresentation\PhpPresentation">PhpPresentation</abbr></a></span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -569,24 +589,23 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/AbstractDecoratorWriter.php"><a href="files/src-phppresentation-writer-abstractdecoratorwriter.html"><abbr title="src/PhpPresentation/Writer/AbstractDecoratorWriter.php">AbstractDecoratorWriter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">80</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">98</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getZip</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\PhpOffice\Common\Adapter\Zip\ZipInterface">ZipInterface</abbr></span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type"><abbr title="\PhpOffice\Common\Adapter\Zip\ZipInterface">ZipInterface</abbr></span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -602,8 +621,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/PptSlides.php"><a href="files/src-phppresentation-writer-powerpoint2007-pptslides.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/PptSlides.php">PptSlides.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">29</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">46</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Add slides (drawings, ...) and slide relationships (drawings, ...).</p>
 
@@ -611,31 +631,14 @@
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">render</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><abbr title="\PhpOffice\Common\Adapter\Zip\ZipInterface">ZipInterface</abbr></span></code>
 
-        <section class="phpdocumentor-description"></section>
-
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
-                                                            
-                                                 <section class="phpdocumentor-description"></section>
-
-                                    </dd>
-                        </dl>
+    
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type"><abbr title="\PhpOffice\Common\Adapter\Zip\ZipInterface">ZipInterface</abbr></span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -651,16 +654,16 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/AbstractDecoratorWriter.php"><a href="files/src-phppresentation-writer-abstractdecoratorwriter.html"><abbr title="src/PhpPresentation/Writer/AbstractDecoratorWriter.php">AbstractDecoratorWriter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">52</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setDrawingHashTable</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-HashTable.html"><abbr title="\PhpOffice\PhpPresentation\HashTable">HashTable</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$hashTable</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">$this</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -668,7 +671,8 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-HashTable.html"><abbr title="\PhpOffice\PhpPresentation\HashTable">HashTable</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
             </dl>
 
@@ -677,8 +681,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">$this</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -694,16 +697,16 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/AbstractDecoratorWriter.php"><a href="files/src-phppresentation-writer-abstractdecoratorwriter.html"><abbr title="src/PhpPresentation/Writer/AbstractDecoratorWriter.php">AbstractDecoratorWriter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">52</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">70</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setPresentation</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-PhpPresentation.html"><abbr title="\PhpOffice\PhpPresentation\PhpPresentation">PhpPresentation</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$oPresentation</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">$this</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -711,7 +714,8 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-PhpPresentation.html"><abbr title="\PhpOffice\PhpPresentation\PhpPresentation">PhpPresentation</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
             </dl>
 
@@ -720,8 +724,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">$this</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -737,16 +740,16 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/AbstractDecoratorWriter.php"><a href="files/src-phppresentation-writer-abstractdecoratorwriter.html"><abbr title="src/PhpPresentation/Writer/AbstractDecoratorWriter.php">AbstractDecoratorWriter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">70</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">88</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setZip</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\Adapter\Zip\ZipInterface">ZipInterface</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$oZip</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">$this</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -754,7 +757,8 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\Adapter\Zip\ZipInterface">ZipInterface</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
             </dl>
 
@@ -763,68 +767,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">$this</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_writeSlide">
-        writeSlide()
-        <a href="classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-PptSlides.html#method_writeSlide" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/PptSlides.php"><a href="files/src-phppresentation-writer-powerpoint2007-pptslides.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/PptSlides.php">PptSlides.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">357</span>
-</aside>
-
-        <p class="phpdocumentor-summary">Write slide to XML format.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">writeSlide</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Slide.html"><abbr title="\PhpOffice\PhpPresentation\Slide">Slide</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pSlide</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
-
-        <section class="phpdocumentor-description"></section>
-
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$pSlide</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Slide.html"><abbr title="\PhpOffice\PhpPresentation\Slide">Slide</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
-                                                            
-                                                 <section class="phpdocumentor-description"></section>
-
-                                    </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">string</span>
-            &mdash;
-            <section class="phpdocumentor-description"><p>XML Output</p>
-</section>
-
+        
     
 </article>
                     <article
@@ -840,8 +783,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/AbstractDecoratorWriter.php"><a href="files/src-phppresentation-writer-powerpoint2007-abstractdecoratorwriter.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/AbstractDecoratorWriter.php">AbstractDecoratorWriter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">286</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">285</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Determine absolute zip path.</p>
 
@@ -849,8 +793,7 @@
     <span class="phpdocumentor-signature__visibility">protected</span>
                 <span class="phpdocumentor-signature__name">absoluteZipPath</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$path</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -858,7 +801,8 @@
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
             </dl>
 
@@ -867,8 +811,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">string</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -884,17 +827,17 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/AbstractDecoratorWriter.php"><a href="files/src-phppresentation-writer-powerpoint2007-abstractdecoratorwriter.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/AbstractDecoratorWriter.php">AbstractDecoratorWriter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">53</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">64</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Write Border.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">writeBorder</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objWriter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Style-Border.html"><abbr title="\PhpOffice\PhpPresentation\Style\Border">Border</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pBorder</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pElementName</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;L&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                <span class="phpdocumentor-signature__name">writeBorder</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objWriter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Style-Border.html"><abbr title="\PhpOffice\PhpPresentation\Style\Border">Border</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pBorder</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pElementName</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;L&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$isMarker</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -924,30 +867,21 @@
 </section>
 
             </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$isMarker</span>
+                : <span class="phpdocumentor-signature__argument__return-type">bool</span>
+                 = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
             </dl>
 
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
-                                                            
-                                                 <section class="phpdocumentor-description"></section>
-
-                                    </dd>
-                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -963,15 +897,17 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/AbstractDecoratorWriter.php"><a href="files/src-phppresentation-writer-powerpoint2007-abstractdecoratorwriter.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/AbstractDecoratorWriter.php">AbstractDecoratorWriter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">115</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">126</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
                 <span class="phpdocumentor-signature__name">writeColor</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objWriter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Style-Color.html"><abbr title="\PhpOffice\PhpPresentation\Style\Color">Color</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$color</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$alpha</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-    
+        <section class="phpdocumentor-description"></section>
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -979,21 +915,24 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$color</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Style-Color.html"><abbr title="\PhpOffice\PhpPresentation\Style\Color">Color</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$alpha</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int|null</span>
                  = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
             </dl>
 
@@ -1002,8 +941,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1019,16 +957,16 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php"><a href="files/src-phppresentation-writer-powerpoint2007-abstractslide.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php">AbstractSlide.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">57</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">60</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
                 <span class="phpdocumentor-signature__name">writeDrawingRelations</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Slide-AbstractSlide.html"><abbr title="\PhpOffice\PhpPresentation\Slide\AbstractSlide">AbstractSlide</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pSlideMaster</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objWriter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$relId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1036,46 +974,33 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Slide-AbstractSlide.html"><abbr title="\PhpOffice\PhpPresentation\Slide\AbstractSlide">AbstractSlide</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$objWriter</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$relId</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
             </dl>
 
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
-                                                            
-                                                 <section class="phpdocumentor-description"></section>
-
-                                    </dd>
-                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1091,8 +1016,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/AbstractDecoratorWriter.php"><a href="files/src-phppresentation-writer-powerpoint2007-abstractdecoratorwriter.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/AbstractDecoratorWriter.php">AbstractDecoratorWriter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">141</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">150</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Write Fill.</p>
 
@@ -1100,8 +1026,7 @@
     <span class="phpdocumentor-signature__visibility">protected</span>
                 <span class="phpdocumentor-signature__name">writeFill</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objWriter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Style-Fill.html"><abbr title="\PhpOffice\PhpPresentation\Style\Fill">Fill</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pFill</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1125,27 +1050,11 @@
             </dl>
 
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
-                                                            
-                                                 <section class="phpdocumentor-description"></section>
-
-                                    </dd>
-                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1161,8 +1070,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/AbstractDecoratorWriter.php"><a href="files/src-phppresentation-writer-powerpoint2007-abstractdecoratorwriter.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/AbstractDecoratorWriter.php">AbstractDecoratorWriter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">195</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">201</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Write Gradient Fill.</p>
 
@@ -1170,8 +1080,7 @@
     <span class="phpdocumentor-signature__visibility">protected</span>
                 <span class="phpdocumentor-signature__name">writeGradientFill</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objWriter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Style-Fill.html"><abbr title="\PhpOffice\PhpPresentation\Style\Fill">Fill</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pFill</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1195,27 +1104,11 @@
             </dl>
 
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
-                                                            
-                                                 <section class="phpdocumentor-description"></section>
-
-                                    </dd>
-                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1231,8 +1124,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php"><a href="files/src-phppresentation-writer-powerpoint2007-abstractslide.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php">AbstractSlide.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">756</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">779</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Write hyperlink.</p>
 
@@ -1240,8 +1134,7 @@
     <span class="phpdocumentor-signature__visibility">protected</span>
                 <span class="phpdocumentor-signature__name">writeHyperlink</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objWriter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-AbstractShape.html"><abbr title="\PhpOffice\PhpPresentation\AbstractShape">AbstractShape</abbr></a>|<a href="classes/PhpOffice-PhpPresentation-Shape-RichText-TextElement.html"><abbr title="\PhpOffice\PhpPresentation\Shape\RichText\TextElement">TextElement</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$shape</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1258,33 +1151,16 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-AbstractShape.html"><abbr title="\PhpOffice\PhpPresentation\AbstractShape">AbstractShape</abbr></a>|<a href="classes/PhpOffice-PhpPresentation-Shape-RichText-TextElement.html"><abbr title="\PhpOffice\PhpPresentation\Shape\RichText\TextElement">TextElement</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
-                                                            
-                                                 <section class="phpdocumentor-description"></section>
-
-                                    </dd>
-                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1300,8 +1176,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php"><a href="files/src-phppresentation-writer-powerpoint2007-abstractslide.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php">AbstractSlide.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">776</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">797</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Write Note Slide.</p>
 
@@ -1309,8 +1186,7 @@
     <span class="phpdocumentor-signature__visibility">protected</span>
                 <span class="phpdocumentor-signature__name">writeNote</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Slide-Note.html"><abbr title="\PhpOffice\PhpPresentation\Slide\Note">Note</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pNote</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1318,32 +1194,17 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Slide-Note.html"><abbr title="\PhpOffice\PhpPresentation\Slide\Note">Note</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
             </dl>
 
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
-                                                            
-                                                 <section class="phpdocumentor-description"></section>
-
-                                    </dd>
-                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">string</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1359,17 +1220,17 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/AbstractDecoratorWriter.php"><a href="files/src-phppresentation-writer-powerpoint2007-abstractdecoratorwriter.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/AbstractDecoratorWriter.php">AbstractDecoratorWriter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">260</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">262</span>
 
-        <p class="phpdocumentor-summary">Write Outline.</p>
+    </aside>
+
+        <p class="phpdocumentor-summary">Write Outline</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
                 <span class="phpdocumentor-signature__name">writeOutline</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objWriter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Style-Outline.html"><abbr title="\PhpOffice\PhpPresentation\Style\Outline">Outline</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$oOutline</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1377,39 +1238,25 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$oOutline</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Style-Outline.html"><abbr title="\PhpOffice\PhpPresentation\Style\Outline">Outline</abbr></a>|null</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
             </dl>
 
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
-                                                            
-                                                 <section class="phpdocumentor-description"></section>
-
-                                    </dd>
-                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1425,8 +1272,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php"><a href="files/src-phppresentation-writer-powerpoint2007-abstractslide.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php">AbstractSlide.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">511</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">513</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Write paragraphs.</p>
 
@@ -1434,8 +1282,7 @@
     <span class="phpdocumentor-signature__visibility">protected</span>
                 <span class="phpdocumentor-signature__name">writeParagraphs</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objWriter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <a href="classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html"><abbr title="\PhpOffice\PhpPresentation\Shape\RichText\Paragraph">Paragraph</abbr></a>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$paragraphs</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$bIsPlaceholder</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1452,40 +1299,24 @@
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;string|int, <a href="classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html"><abbr title="\PhpOffice\PhpPresentation\Shape\RichText\Paragraph">Paragraph</abbr></a>&gt;</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$bIsPlaceholder</span>
                 : <span class="phpdocumentor-signature__argument__return-type">bool</span>
                  = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
             </dl>
 
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
-                                                            
-                                                 <section class="phpdocumentor-description"></section>
-
-                                    </dd>
-                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1501,8 +1332,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/AbstractDecoratorWriter.php"><a href="files/src-phppresentation-writer-powerpoint2007-abstractdecoratorwriter.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/AbstractDecoratorWriter.php">AbstractDecoratorWriter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">233</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">237</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Write Pattern Fill.</p>
 
@@ -1510,8 +1342,7 @@
     <span class="phpdocumentor-signature__visibility">protected</span>
                 <span class="phpdocumentor-signature__name">writePatternFill</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objWriter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Style-Fill.html"><abbr title="\PhpOffice\PhpPresentation\Style\Fill">Fill</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pFill</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1535,27 +1366,11 @@
             </dl>
 
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
-                                                            
-                                                 <section class="phpdocumentor-description"></section>
-
-                                    </dd>
-                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1571,17 +1386,17 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/AbstractDecoratorWriter.php"><a href="files/src-phppresentation-writer-powerpoint2007-abstractdecoratorwriter.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/AbstractDecoratorWriter.php">AbstractDecoratorWriter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">25</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">41</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Write relationship.</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">writeRelationship</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objWriter</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pId</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">1</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pType</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pTarget</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pTargetMode</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+                <span class="phpdocumentor-signature__name">writeRelationship</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objWriter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pId</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pType</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pTarget</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pTargetMode</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1596,7 +1411,7 @@
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$pId</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">1</span>            </dt>
+                            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"><p>Relationship ID. rId will be prepended!</p>
 </section>
@@ -1605,7 +1420,7 @@
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$pType</span>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+                            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"><p>Relationship type</p>
 </section>
@@ -1614,7 +1429,7 @@
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$pTarget</span>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
-                 = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
+                            </dt>
             <dd class="phpdocumentor-argument-list__definition">
                     <section class="phpdocumentor-description"><p>Relationship target</p>
 </section>
@@ -1632,27 +1447,11 @@
             </dl>
 
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
-                                                            
-                                                 <section class="phpdocumentor-description"></section>
-
-                                    </dd>
-                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1668,8 +1467,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php"><a href="files/src-phppresentation-writer-powerpoint2007-abstractslide.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php">AbstractSlide.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">720</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">745</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Write Shadow.</p>
 
@@ -1677,8 +1477,7 @@
     <span class="phpdocumentor-signature__visibility">protected</span>
                 <span class="phpdocumentor-signature__name">writeShadow</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objWriter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Style-Shadow.html"><abbr title="\PhpOffice\PhpPresentation\Style\Shadow">Shadow</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$oShadow</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1686,11 +1485,72 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$oShadow</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Style-Shadow.html"><abbr title="\PhpOffice\PhpPresentation\Style\Shadow">Shadow</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">void</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_writeShapeAutoShape">
+        writeShapeAutoShape()
+        <a href="classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-AbstractSlide.html#method_writeShapeAutoShape" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php"><a href="files/src-phppresentation-writer-powerpoint2007-abstractslide.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php">AbstractSlide.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">1085</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Write AutoShape</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                <span class="phpdocumentor-signature__name">writeShapeAutoShape</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objWriter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Shape-AutoShape.html"><abbr title="\PhpOffice\PhpPresentation\Shape\AutoShape">AutoShape</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$shape</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$shapeId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$objWriter</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>XML Writer</p>
+</section>
+
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$shape</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Shape-AutoShape.html"><abbr title="\PhpOffice\PhpPresentation\Shape\AutoShape">AutoShape</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$shapeId</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
                 
@@ -1702,8 +1562,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1719,17 +1578,17 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php"><a href="files/src-phppresentation-writer-powerpoint2007-abstractslide.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php">AbstractSlide.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1062</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">1180</span>
 
-        <p class="phpdocumentor-summary">Write chart.</p>
+    </aside>
+
+        <p class="phpdocumentor-summary">Write chart</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
                 <span class="phpdocumentor-signature__name">writeShapeChart</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objWriter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Shape-Chart.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Chart">Chart</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$shape</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$shapeId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1746,14 +1605,16 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Shape-Chart.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Chart">Chart</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$shapeId</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
             </dl>
 
@@ -1762,8 +1623,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1779,16 +1639,16 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php"><a href="files/src-phppresentation-writer-powerpoint2007-abstractslide.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php">AbstractSlide.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">125</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">128</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
                 <span class="phpdocumentor-signature__name">writeShapeCollection</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objWriter</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">array&lt;int, <a href="classes/PhpOffice-PhpPresentation-AbstractShape.html"><abbr title="\PhpOffice\PhpPresentation\AbstractShape">AbstractShape</abbr></a>&gt;|<abbr title="\ArrayObject">ArrayObject</abbr>&lt;int, <a href="classes/PhpOffice-PhpPresentation-AbstractShape.html"><abbr title="\PhpOffice\PhpPresentation\AbstractShape">AbstractShape</abbr></a>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$shapes</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">[]</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__reference-operator">&amp;</span><span class="phpdocumentor-signature__argument__name">$shapeId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1796,90 +1656,14 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$shapes</span>
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;int, <a href="classes/PhpOffice-PhpPresentation-AbstractShape.html"><abbr title="\PhpOffice\PhpPresentation\AbstractShape">AbstractShape</abbr></a>&gt;|<abbr title="\ArrayObject">ArrayObject</abbr>&lt;int, <a href="classes/PhpOffice-PhpPresentation-AbstractShape.html"><abbr title="\PhpOffice\PhpPresentation\AbstractShape">AbstractShape</abbr></a>&gt;</span>
                  = <span class="phpdocumentor-signature__argument__default-value">[]</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$shapeId</span>
-                : <span class="phpdocumentor-signature__argument__return-type">int</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
-            </dd>
-            </dl>
-
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
-                                                            
-                                                 <section class="phpdocumentor-description"></section>
-
-                                    </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">void</span>
-            &mdash;
-            <section class="phpdocumentor-description"></section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -protected
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_writeShapeDrawing">
-        writeShapeDrawing()
-        <a href="classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-PptSlides.html#method_writeShapeDrawing" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/PptSlides.php"><a href="files/src-phppresentation-writer-powerpoint2007-pptslides.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/PptSlides.php">PptSlides.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">755</span>
-</aside>
-
-        <p class="phpdocumentor-summary">Write pic.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">protected</span>
-                <span class="phpdocumentor-signature__name">writeShapeDrawing</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objWriter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Shape-Drawing-AbstractDrawingAdapter.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Drawing\AbstractDrawingAdapter">AbstractDrawingAdapter</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$shape</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$shapeId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
-
-        <section class="phpdocumentor-description"></section>
-
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$objWriter</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"><p>XML Writer</p>
-</section>
-
-            </dd>
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$shape</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Shape-Drawing-AbstractDrawingAdapter.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Drawing\AbstractDrawingAdapter">AbstractDrawingAdapter</abbr></a></span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
                 
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1901,18 +1685,16 @@
                     <span class="phpdocumentor-tag__name">throws</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/PhpOffice-PhpPresentation-Exception-UndefinedChartTypeException.html"><abbr title="\PhpOffice\PhpPresentation\Exception\UndefinedChartTypeException">UndefinedChartTypeException</abbr></a></span>
                                                             
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                         </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1928,8 +1710,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php"><a href="files/src-phppresentation-writer-powerpoint2007-abstractslide.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php">AbstractSlide.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1223</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">1408</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Write group.</p>
 
@@ -1937,8 +1720,7 @@
     <span class="phpdocumentor-signature__visibility">protected</span>
                 <span class="phpdocumentor-signature__name">writeShapeGroup</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objWriter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Shape-Group.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Group">Group</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$group</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__reference-operator">&amp;</span><span class="phpdocumentor-signature__argument__name">$shapeId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1955,39 +1737,25 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Shape-Group.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Group">Group</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$shapeId</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
             </dl>
 
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
-                                                            
-                                                 <section class="phpdocumentor-description"></section>
-
-                                    </dd>
-                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2003,8 +1771,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php"><a href="files/src-phppresentation-writer-powerpoint2007-abstractslide.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php">AbstractSlide.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">630</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">655</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Write Line Shape.</p>
 
@@ -2012,8 +1781,7 @@
     <span class="phpdocumentor-signature__visibility">protected</span>
                 <span class="phpdocumentor-signature__name">writeShapeLine</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objWriter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Shape-Line.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Line">Line</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$shape</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$shapeId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2030,39 +1798,25 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Shape-Line.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Line">Line</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$shapeId</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
             </dl>
 
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
-                                                            
-                                                 <section class="phpdocumentor-description"></section>
-
-                                    </dd>
-                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2078,8 +1832,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php"><a href="files/src-phppresentation-writer-powerpoint2007-abstractslide.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php">AbstractSlide.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1122</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">1238</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Write pic.</p>
 
@@ -2087,8 +1842,7 @@
     <span class="phpdocumentor-signature__visibility">protected</span>
                 <span class="phpdocumentor-signature__name">writeShapePic</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objWriter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Shape-AbstractGraphic.html"><abbr title="\PhpOffice\PhpPresentation\Shape\AbstractGraphic">AbstractGraphic</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$shape</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$shapeId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2105,39 +1859,25 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Shape-AbstractGraphic.html"><abbr title="\PhpOffice\PhpPresentation\Shape\AbstractGraphic">AbstractGraphic</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$shapeId</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
             </dl>
 
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
-                                                            
-                                                 <section class="phpdocumentor-description"></section>
-
-                                    </dd>
-                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2153,8 +1893,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php"><a href="files/src-phppresentation-writer-powerpoint2007-abstractslide.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php">AbstractSlide.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">311</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">317</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Write table.</p>
 
@@ -2162,8 +1903,7 @@
     <span class="phpdocumentor-signature__visibility">protected</span>
                 <span class="phpdocumentor-signature__name">writeShapeTable</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objWriter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Shape-Table.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Table">Table</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$shape</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$shapeId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2192,27 +1932,11 @@
             </dl>
 
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
-                                                            
-                                                 <section class="phpdocumentor-description"></section>
-
-                                    </dd>
-                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2228,8 +1952,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php"><a href="files/src-phppresentation-writer-powerpoint2007-abstractslide.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php">AbstractSlide.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">160</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">165</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Write txt.</p>
 
@@ -2237,8 +1962,7 @@
     <span class="phpdocumentor-signature__visibility">protected</span>
                 <span class="phpdocumentor-signature__name">writeShapeText</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objWriter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Shape-RichText.html"><abbr title="\PhpOffice\PhpPresentation\Shape\RichText">RichText</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$shape</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$shapeId</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2267,26 +1991,56 @@
             </dl>
 
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
-                                                            
-                                                 <section class="phpdocumentor-description"></section>
-
-                                    </dd>
-                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_writeSlide">
+        writeSlide()
+        <a href="classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-PptSlides.html#method_writeSlide" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/PptSlides.php"><a href="files/src-phppresentation-writer-powerpoint2007-pptslides.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/PptSlides.php">PptSlides.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">370</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Write slide to XML format.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+                <span class="phpdocumentor-signature__name">writeSlide</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Slide.html"><abbr title="\PhpOffice\PhpPresentation\Slide">Slide</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pSlide</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$pSlide</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Slide.html"><abbr title="\PhpOffice\PhpPresentation\Slide">Slide</abbr></a></span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string</span>
+            &mdash;
+            <section class="phpdocumentor-description"><p>XML Output</p>
+</section>
 
     
 </article>
@@ -2303,15 +2057,17 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/PptSlides.php"><a href="files/src-phppresentation-writer-powerpoint2007-pptslides.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/PptSlides.php">PptSlides.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">504</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">517</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
                 <span class="phpdocumentor-signature__name">writeSlideAnimations</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objWriter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Slide.html"><abbr title="\PhpOffice\PhpPresentation\Slide">Slide</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$oSlide</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-    
+        <section class="phpdocumentor-description"></section>
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2319,14 +2075,16 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$oSlide</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Slide.html"><abbr title="\PhpOffice\PhpPresentation\Slide">Slide</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
             </dl>
 
@@ -2335,8 +2093,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2352,15 +2109,17 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php"><a href="files/src-phppresentation-writer-powerpoint2007-abstractslide.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php">AbstractSlide.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1272</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">1457</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">protected</span>
                 <span class="phpdocumentor-signature__name">writeSlideBackground</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Slide-AbstractSlide.html"><abbr title="\PhpOffice\PhpPresentation\Slide\AbstractSlide">AbstractSlide</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pSlide</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objWriter</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-    
+        <section class="phpdocumentor-description"></section>
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2368,14 +2127,16 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Slide-AbstractSlide.html"><abbr title="\PhpOffice\PhpPresentation\Slide\AbstractSlide">AbstractSlide</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$objWriter</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
             </dl>
 
@@ -2384,8 +2145,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2401,8 +2161,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/PptSlides.php"><a href="files/src-phppresentation-writer-powerpoint2007-pptslides.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/PptSlides.php">PptSlides.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">59</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">74</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Write slide relationships to XML format.</p>
 
@@ -2410,8 +2171,7 @@
     <span class="phpdocumentor-signature__visibility">protected</span>
                 <span class="phpdocumentor-signature__name">writeSlideRelationships</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Slide.html"><abbr title="\PhpOffice\PhpPresentation\Slide">Slide</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pSlide</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2419,26 +2179,12 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Slide.html"><abbr title="\PhpOffice\PhpPresentation\Slide">Slide</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
             </dl>
 
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
-                                                            
-                                                 <section class="phpdocumentor-description"></section>
-
-                                    </dd>
-                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">string</span>
@@ -2461,8 +2207,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php"><a href="files/src-phppresentation-writer-powerpoint2007-abstractslide.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php">AbstractSlide.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1342</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">1527</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Write Transition Slide.</p>
 
@@ -2470,8 +2217,7 @@
     <span class="phpdocumentor-signature__visibility">protected</span>
                 <span class="phpdocumentor-signature__name">writeSlideTransition</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objWriter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Slide-Transition.html"><abbr title="\PhpOffice\PhpPresentation\Slide\Transition">Transition</abbr></a>|null&nbsp;</span><span class="phpdocumentor-signature__argument__name">$transition</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2479,14 +2225,16 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$transition</span>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Slide-Transition.html"><abbr title="\PhpOffice\PhpPresentation\Slide\Transition">Transition</abbr></a>|null</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
             </dl>
 
@@ -2502,16 +2250,14 @@
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                     <span class="phpdocumentor-tag-link"><a href="http://officeopenxml.com/prSlide-transitions.php"><abbr title="http://officeopenxml.com/prSlide-transitions.php">http://officeopenxml.com/prSlide-transitions.php</abbr></a></span>
                                         
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                         </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2527,8 +2273,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/AbstractDecoratorWriter.php"><a href="files/src-phppresentation-writer-powerpoint2007-abstractdecoratorwriter.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/AbstractDecoratorWriter.php">AbstractDecoratorWriter.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">179</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">187</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Write Solid Fill.</p>
 
@@ -2536,8 +2283,7 @@
     <span class="phpdocumentor-signature__visibility">protected</span>
                 <span class="phpdocumentor-signature__name">writeSolidFill</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><abbr title="\PhpOffice\Common\XMLWriter">XMLWriter</abbr>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$objWriter</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Style-Fill.html"><abbr title="\PhpOffice\PhpPresentation\Style\Fill">Fill</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pFill</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">void</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2561,27 +2307,11 @@
             </dl>
 
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
-                                                            
-                                                 <section class="phpdocumentor-description"></section>
-
-                                    </dd>
-                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">void</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2597,26 +2327,89 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php"><a href="files/src-phppresentation-writer-powerpoint2007-abstractslide.html"><abbr title="src/PhpPresentation/Writer/PowerPoint2007/AbstractSlide.php">AbstractSlide.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">1583</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">1768</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
                 <span class="phpdocumentor-signature__name">getGUID</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-    
+        <section class="phpdocumentor-description"></section>
+
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">string</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
             </section>
+
+        
+    <script type="text/javascript">
+        function loadExternalCodeSnippets(line) {
+            Array.prototype.slice.call(document.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                var src = pre.getAttribute('data-src').replace( /\\/g, '/');
+                var extension = (src.match(/\.(\w+)$/) || [, ''])[1];
+                var language = 'php';
+
+                var code = document.createElement('code');
+                code.className = 'language-' + language;
+
+                pre.textContent = '';
+
+                pre.setAttribute('data-line', line)
+                code.textContent = 'Loading…';
+
+                pre.appendChild(code);
+
+                var xhr = new XMLHttpRequest();
+
+                xhr.open('GET', src, true);
+
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState == 4) {
+
+                        if (xhr.status < 400 && xhr.responseText) {
+                            code.textContent = xhr.responseText;
+
+                            Prism.highlightElement(code);
+                        }
+                        else if (xhr.status >= 400) {
+                            code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                        }
+                        else {
+                            code.textContent = '✖ Error: File does not exist, is empty or trying to view from localhost';
+                        }
+                    }
+                };
+
+                xhr.send(null);
+            });
+        }
+
+        var modals = document.querySelectorAll("[data-modal]");
+
+        modals.forEach(function (trigger) {
+            trigger.addEventListener("click", function (event) {
+                //event.preventDefault();
+                const modal = document.getElementById(trigger.dataset.modal);
+                modal.classList.add("phpdocumentor-modal__open");
+                loadExternalCodeSnippets(trigger.dataset.line)
+                const exits = modal.querySelectorAll("[data-exit-button]");
+                exits.forEach(function (exit) {
+                    exit.addEventListener("click", function (event) {
+                        event.preventDefault();
+                        modal.classList.remove("phpdocumentor-modal__open");
+                    });
+                });
+            });
+        });
+    </script>
 
     </article>
                 <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
@@ -2639,5 +2432,9 @@
     <script>
         cssVars({});
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.min.js"></script>
 </body>
 </html>

@@ -113,12 +113,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\AbstractShape\u003A\u003AgetHyperlink\u0028\u0029",
             "name": "getHyperlink",
-            "summary": "Get\u0020Hyperlink.",
+            "summary": "Get\u0020Hyperlink",
             "url": "classes/PhpOffice-PhpPresentation-AbstractShape.html#method_getHyperlink"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\AbstractShape\u003A\u003AsetHyperlink\u0028\u0029",
             "name": "setHyperlink",
-            "summary": "Set\u0020Hyperlink.",
+            "summary": "Set\u0020Hyperlink",
             "url": "classes/PhpOffice-PhpPresentation-AbstractShape.html#method_setHyperlink"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\AbstractShape\u003A\u003AgetHashCode\u0028\u0029",
@@ -413,7 +413,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\DocumentProperties\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "Create\u0020a\u0020new\u0020\\PhpOffice\\PhpPresentation\\DocumentProperties.",
+            "summary": "Create\u0020a\u0020new\u0020\\PhpOffice\\PhpPresentation\\DocumentProperties",
             "url": "classes/PhpOffice-PhpPresentation-DocumentProperties.html#method___construct"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\DocumentProperties\u003A\u003AgetCreator\u0028\u0029",
@@ -516,6 +516,61 @@ Search.appendIndex(
             "summary": "Set\u0020Company.",
             "url": "classes/PhpOffice-PhpPresentation-DocumentProperties.html#method_setCompany"
         },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\DocumentProperties\u003A\u003AgetCustomProperties\u0028\u0029",
+            "name": "getCustomProperties",
+            "summary": "Get\u0020a\u0020List\u0020of\u0020Custom\u0020Property\u0020Names.",
+            "url": "classes/PhpOffice-PhpPresentation-DocumentProperties.html#method_getCustomProperties"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\DocumentProperties\u003A\u003AisCustomPropertySet\u0028\u0029",
+            "name": "isCustomPropertySet",
+            "summary": "Check\u0020if\u0020a\u0020Custom\u0020Property\u0020is\u0020defined.",
+            "url": "classes/PhpOffice-PhpPresentation-DocumentProperties.html#method_isCustomPropertySet"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\DocumentProperties\u003A\u003AgetCustomPropertyValue\u0028\u0029",
+            "name": "getCustomPropertyValue",
+            "summary": "Get\u0020a\u0020Custom\u0020Property\u0020Value.",
+            "url": "classes/PhpOffice-PhpPresentation-DocumentProperties.html#method_getCustomPropertyValue"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\DocumentProperties\u003A\u003AgetCustomPropertyType\u0028\u0029",
+            "name": "getCustomPropertyType",
+            "summary": "Get\u0020a\u0020Custom\u0020Property\u0020Type.",
+            "url": "classes/PhpOffice-PhpPresentation-DocumentProperties.html#method_getCustomPropertyType"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\DocumentProperties\u003A\u003AsetCustomProperty\u0028\u0029",
+            "name": "setCustomProperty",
+            "summary": "Set\u0020a\u0020Custom\u0020Property.",
+            "url": "classes/PhpOffice-PhpPresentation-DocumentProperties.html#method_setCustomProperty"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\DocumentProperties\u003A\u003APROPERTY_TYPE_BOOLEAN",
+            "name": "PROPERTY_TYPE_BOOLEAN",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-DocumentProperties.html#constant_PROPERTY_TYPE_BOOLEAN"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\DocumentProperties\u003A\u003APROPERTY_TYPE_INTEGER",
+            "name": "PROPERTY_TYPE_INTEGER",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-DocumentProperties.html#constant_PROPERTY_TYPE_INTEGER"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\DocumentProperties\u003A\u003APROPERTY_TYPE_FLOAT",
+            "name": "PROPERTY_TYPE_FLOAT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-DocumentProperties.html#constant_PROPERTY_TYPE_FLOAT"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\DocumentProperties\u003A\u003APROPERTY_TYPE_DATE",
+            "name": "PROPERTY_TYPE_DATE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-DocumentProperties.html#constant_PROPERTY_TYPE_DATE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\DocumentProperties\u003A\u003APROPERTY_TYPE_STRING",
+            "name": "PROPERTY_TYPE_STRING",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-DocumentProperties.html#constant_PROPERTY_TYPE_STRING"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\DocumentProperties\u003A\u003APROPERTY_TYPE_UNKNOWN",
+            "name": "PROPERTY_TYPE_UNKNOWN",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-DocumentProperties.html#constant_PROPERTY_TYPE_UNKNOWN"
+        },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\DocumentProperties\u003A\u003A\u0024creator",
             "name": "creator",
             "summary": "Creator.",
@@ -565,6 +620,136 @@ Search.appendIndex(
             "name": "company",
             "summary": "Company.",
             "url": "classes/PhpOffice-PhpPresentation-DocumentProperties.html#property_company"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\DocumentProperties\u003A\u003A\u0024customProperties",
+            "name": "customProperties",
+            "summary": "Custom\u0020Properties.",
+            "url": "classes/PhpOffice-PhpPresentation-DocumentProperties.html#property_customProperties"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Exception\\DirectoryNotFoundException",
+            "name": "DirectoryNotFoundException",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Exception-DirectoryNotFoundException.html"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Exception\\DirectoryNotFoundException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Exception-DirectoryNotFoundException.html#method___construct"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Exception\\FeatureNotImplementedException",
+            "name": "FeatureNotImplementedException",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Exception-FeatureNotImplementedException.html"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Exception\\FeatureNotImplementedException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Exception-FeatureNotImplementedException.html#method___construct"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Exception\\FileCopyException",
+            "name": "FileCopyException",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Exception-FileCopyException.html"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Exception\\FileCopyException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Exception-FileCopyException.html#method___construct"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Exception\\FileNotFoundException",
+            "name": "FileNotFoundException",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Exception-FileNotFoundException.html"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Exception\\FileNotFoundException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Exception-FileNotFoundException.html#method___construct"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Exception\\FileRemoveException",
+            "name": "FileRemoveException",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Exception-FileRemoveException.html"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Exception\\FileRemoveException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Exception-FileRemoveException.html#method___construct"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Exception\\InvalidClassException",
+            "name": "InvalidClassException",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Exception-InvalidClassException.html"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Exception\\InvalidClassException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Exception-InvalidClassException.html#method___construct"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Exception\\InvalidFileFormatException",
+            "name": "InvalidFileFormatException",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Exception-InvalidFileFormatException.html"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Exception\\InvalidFileFormatException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Exception-InvalidFileFormatException.html#method___construct"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Exception\\InvalidParameterException",
+            "name": "InvalidParameterException",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Exception-InvalidParameterException.html"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Exception\\InvalidParameterException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Exception-InvalidParameterException.html#method___construct"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Exception\\OutOfBoundsException",
+            "name": "OutOfBoundsException",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Exception-OutOfBoundsException.html"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Exception\\OutOfBoundsException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Exception-OutOfBoundsException.html#method___construct"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Exception\\PhpPresentationException",
+            "name": "PhpPresentationException",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Exception-PhpPresentationException.html"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Exception\\ShapeContainerAlreadyAssignedException",
+            "name": "ShapeContainerAlreadyAssignedException",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Exception-ShapeContainerAlreadyAssignedException.html"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Exception\\ShapeContainerAlreadyAssignedException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Exception-ShapeContainerAlreadyAssignedException.html#method___construct"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Exception\\UnauthorizedMimetypeException",
+            "name": "UnauthorizedMimetypeException",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Exception-UnauthorizedMimetypeException.html"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Exception\\UnauthorizedMimetypeException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Exception-UnauthorizedMimetypeException.html#method___construct"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Exception\\UndefinedChartTypeException",
+            "name": "UndefinedChartTypeException",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Exception-UndefinedChartTypeException.html"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Exception\\UndefinedChartTypeException\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Exception-UndefinedChartTypeException.html#method___construct"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\GeometryCalculator",
             "name": "GeometryCalculator",
@@ -673,12 +858,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\IOFactory\u003A\u003Aload\u0028\u0029",
             "name": "load",
-            "summary": "Loads\u0020PhpPresentation\u0020from\u0020file\u0020using\u0020automatic\u0020\\PhpOffice\\PhpPresentation\\Reader\\ReaderInterface\u0020resolution.",
+            "summary": "Loads\u0020PhpPresentation\u0020from\u0020file\u0020using\u0020automatic\u0020ReaderInterface\u0020resolution.",
             "url": "classes/PhpOffice-PhpPresentation-IOFactory.html#method_load"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\IOFactory\u003A\u003AloadClass\u0028\u0029",
             "name": "loadClass",
-            "summary": "Load\u0020class.",
+            "summary": "Load\u0020class",
             "url": "classes/PhpOffice-PhpPresentation-IOFactory.html#method_loadClass"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\IOFactory\u003A\u003AisConcreteClass\u0028\u0029",
@@ -848,7 +1033,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\PresentationProperties",
             "name": "PresentationProperties",
-            "summary": "\\PhpOffice\\PhpPresentation\\PresentationProperties.",
+            "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-PresentationProperties.html"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\PresentationProperties\u003A\u003AisLoopContinuouslyUntilEsc\u0028\u0029",
@@ -911,6 +1096,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-PresentationProperties.html#property_isCommentVisible"
         },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\PresentationProperties\u003A\u003AgetSlideshowType\u0028\u0029",
+            "name": "getSlideshowType",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-PresentationProperties.html#method_getSlideshowType"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\PresentationProperties\u003A\u003AsetSlideshowType\u0028\u0029",
+            "name": "setSlideshowType",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-PresentationProperties.html#method_setSlideshowType"
+        },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\PresentationProperties\u003A\u003AVIEW_HANDOUT",
             "name": "VIEW_HANDOUT",
             "summary": "",
@@ -951,10 +1146,30 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-PresentationProperties.html#constant_VIEW_SLIDE_THUMBNAIL"
         },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\PresentationProperties\u003A\u003ASLIDESHOW_TYPE_PRESENT",
+            "name": "SLIDESHOW_TYPE_PRESENT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-PresentationProperties.html#constant_SLIDESHOW_TYPE_PRESENT"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\PresentationProperties\u003A\u003ASLIDESHOW_TYPE_BROWSE",
+            "name": "SLIDESHOW_TYPE_BROWSE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-PresentationProperties.html#constant_SLIDESHOW_TYPE_BROWSE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\PresentationProperties\u003A\u003ASLIDESHOW_TYPE_KIOSK",
+            "name": "SLIDESHOW_TYPE_KIOSK",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-PresentationProperties.html#constant_SLIDESHOW_TYPE_KIOSK"
+        },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\PresentationProperties\u003A\u003A\u0024arrayView",
             "name": "arrayView",
             "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-PresentationProperties.html#property_arrayView"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\PresentationProperties\u003A\u003A\u0024arraySlideshowTypes",
+            "name": "arraySlideshowTypes",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-PresentationProperties.html#property_arraySlideshowTypes"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\PresentationProperties\u003A\u003A\u0024isLoopUntilEsc",
             "name": "isLoopUntilEsc",
@@ -975,6 +1190,11 @@ Search.appendIndex(
             "name": "lastView",
             "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-PresentationProperties.html#property_lastView"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\PresentationProperties\u003A\u003A\u0024slideshowType",
+            "name": "slideshowType",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-PresentationProperties.html#property_slideshowType"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\ODPresentation",
             "name": "ODPresentation",
@@ -1003,58 +1223,73 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\ODPresentation\u003A\u003AloadDocumentProperties\u0028\u0029",
             "name": "loadDocumentProperties",
-            "summary": "Read\u0020Document\u0020Properties.",
+            "summary": "Read\u0020Document\u0020Properties",
             "url": "classes/PhpOffice-PhpPresentation-Reader-ODPresentation.html#method_loadDocumentProperties"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\ODPresentation\u003A\u003AloadSlides\u0028\u0029",
             "name": "loadSlides",
-            "summary": "Extract\u0020all\u0020slides.",
+            "summary": "Extract\u0020all\u0020slides",
             "url": "classes/PhpOffice-PhpPresentation-Reader-ODPresentation.html#method_loadSlides"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\ODPresentation\u003A\u003AloadPresentationProperties\u0028\u0029",
+            "name": "loadPresentationProperties",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Reader-ODPresentation.html#method_loadPresentationProperties"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\ODPresentation\u003A\u003AloadStyle\u0028\u0029",
             "name": "loadStyle",
-            "summary": "Extract\u0020style.",
+            "summary": "Extract\u0020style",
             "url": "classes/PhpOffice-PhpPresentation-Reader-ODPresentation.html#method_loadStyle"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\ODPresentation\u003A\u003AloadSlide\u0028\u0029",
             "name": "loadSlide",
-            "summary": "Read\u0020Slide.",
+            "summary": "Read\u0020Slide",
             "url": "classes/PhpOffice-PhpPresentation-Reader-ODPresentation.html#method_loadSlide"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\ODPresentation\u003A\u003AloadShapeDrawing\u0028\u0029",
             "name": "loadShapeDrawing",
-            "summary": "Read\u0020Shape\u0020Drawing.",
+            "summary": "Read\u0020Shape\u0020Drawing",
             "url": "classes/PhpOffice-PhpPresentation-Reader-ODPresentation.html#method_loadShapeDrawing"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\ODPresentation\u003A\u003AloadShapeRichText\u0028\u0029",
             "name": "loadShapeRichText",
-            "summary": "Read\u0020Shape\u0020RichText.",
+            "summary": "Read\u0020Shape\u0020RichText",
             "url": "classes/PhpOffice-PhpPresentation-Reader-ODPresentation.html#method_loadShapeRichText"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\ODPresentation\u003A\u003AreadParagraph\u0028\u0029",
             "name": "readParagraph",
-            "summary": "Read\u0020Paragraph.",
+            "summary": "Read\u0020Paragraph",
             "url": "classes/PhpOffice-PhpPresentation-Reader-ODPresentation.html#method_readParagraph"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\ODPresentation\u003A\u003AreadParagraphItem\u0028\u0029",
             "name": "readParagraphItem",
-            "summary": "Read\u0020Paragraph\u0020Item.",
+            "summary": "Read\u0020Paragraph\u0020Item",
             "url": "classes/PhpOffice-PhpPresentation-Reader-ODPresentation.html#method_readParagraphItem"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\ODPresentation\u003A\u003AreadList\u0028\u0029",
             "name": "readList",
-            "summary": "Read\u0020List.",
+            "summary": "Read\u0020List",
             "url": "classes/PhpOffice-PhpPresentation-Reader-ODPresentation.html#method_readList"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\ODPresentation\u003A\u003AreadListItem\u0028\u0029",
             "name": "readListItem",
-            "summary": "Read\u0020List\u0020Item.",
+            "summary": "Read\u0020List\u0020Item",
             "url": "classes/PhpOffice-PhpPresentation-Reader-ODPresentation.html#method_readListItem"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\ODPresentation\u003A\u003AloadStylesFile\u0028\u0029",
             "name": "loadStylesFile",
             "summary": "Load\u0020file\u0020\u0027styles.xml\u0027.",
             "url": "classes/PhpOffice-PhpPresentation-Reader-ODPresentation.html#method_loadStylesFile"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\ODPresentation\u003A\u003AgetExpressionUnit\u0028\u0029",
+            "name": "getExpressionUnit",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Reader-ODPresentation.html#method_getExpressionUnit"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\ODPresentation\u003A\u003AgetExpressionValue\u0028\u0029",
+            "name": "getExpressionValue",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Reader-ODPresentation.html#method_getExpressionValue"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\ODPresentation\u003A\u003A\u0024oPhpPresentation",
             "name": "oPhpPresentation",
@@ -1126,6 +1361,11 @@ Search.appendIndex(
             "summary": "Read\u0020Custom\u0020Properties.",
             "url": "classes/PhpOffice-PhpPresentation-Reader-PowerPoint2007.html#method_loadCustomProperties"
         },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\PowerPoint2007\u003A\u003AloadPresentationProperties\u0028\u0029",
+            "name": "loadPresentationProperties",
+            "summary": "Read\u0020Presentation\u0020Properties",
+            "url": "classes/PhpOffice-PhpPresentation-Reader-PowerPoint2007.html#method_loadPresentationProperties"
+        },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\PowerPoint2007\u003A\u003AloadViewProperties\u0028\u0029",
             "name": "loadViewProperties",
             "summary": "Read\u0020View\u0020Properties.",
@@ -1133,17 +1373,17 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\PowerPoint2007\u003A\u003AloadSlides\u0028\u0029",
             "name": "loadSlides",
-            "summary": "Extract\u0020all\u0020slides.",
+            "summary": "Extract\u0020all\u0020slides",
             "url": "classes/PhpOffice-PhpPresentation-Reader-PowerPoint2007.html#method_loadSlides"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\PowerPoint2007\u003A\u003AloadMasterSlides\u0028\u0029",
             "name": "loadMasterSlides",
-            "summary": "Extract\u0020all\u0020MasterSlides.",
+            "summary": "Extract\u0020all\u0020MasterSlides",
             "url": "classes/PhpOffice-PhpPresentation-Reader-PowerPoint2007.html#method_loadMasterSlides"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\PowerPoint2007\u003A\u003AloadSlide\u0028\u0029",
             "name": "loadSlide",
-            "summary": "Extract\u0020data\u0020from\u0020slide.",
+            "summary": "Extract\u0020data\u0020from\u0020slide",
             "url": "classes/PhpOffice-PhpPresentation-Reader-PowerPoint2007.html#method_loadSlide"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\PowerPoint2007\u003A\u003AloadMasterSlide\u0028\u0029",
@@ -1263,12 +1503,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\PowerPoint97\u003A\u003AloadFile\u0028\u0029",
             "name": "loadFile",
-            "summary": "Load\u0020PhpPresentation\u0020Serialized\u0020file.",
+            "summary": "Load\u0020PhpPresentation\u0020Serialized\u0020file",
             "url": "classes/PhpOffice-PhpPresentation-Reader-PowerPoint97.html#method_loadFile"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\PowerPoint97\u003A\u003AloadOLE\u0028\u0029",
             "name": "loadOLE",
-            "summary": "Read\u0020OLE\u0020Part.",
+            "summary": "Read\u0020OLE\u0020Part",
             "url": "classes/PhpOffice-PhpPresentation-Reader-PowerPoint97.html#method_loadOLE"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\PowerPoint97\u003A\u003AloadPicturesStream\u0028\u0029",
@@ -2836,6 +3076,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-Reader-PowerPoint97.html#property_currentNote"
         },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\PowerPoint97\u003A\u003A\u0024filename",
+            "name": "filename",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Reader-PowerPoint97.html#property_filename"
+        },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Reader\\ReaderInterface",
             "name": "ReaderInterface",
             "summary": "Reader\u0020interface.",
@@ -2976,9 +3221,974 @@ Search.appendIndex(
             "summary": "Slide\u0020relation\u0020ID\u0020\u0028should\u0020not\u0020be\u0020used\u0020by\u0020user\u0020code\u0021\u0029.",
             "url": "classes/PhpOffice-PhpPresentation-Shape-AbstractGraphic.html#property_relationId"
         },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape",
+            "name": "AutoShape",
+            "summary": "AutoShape\u0020shape",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "Create\u0020a\u0020new\u0020self.",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#method___construct"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003AgetText\u0028\u0029",
+            "name": "getText",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#method_getText"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003AsetText\u0028\u0029",
+            "name": "setText",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#method_setText"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003AgetType\u0028\u0029",
+            "name": "getType",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#method_getType"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003AsetType\u0028\u0029",
+            "name": "setType",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#method_setType"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003AgetOutline\u0028\u0029",
+            "name": "getOutline",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#method_getOutline"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003AsetOutline\u0028\u0029",
+            "name": "setOutline",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#method_setOutline"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_10_POINT_STAR",
+            "name": "TYPE_10_POINT_STAR",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_10_POINT_STAR"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_12_POINT_STAR",
+            "name": "TYPE_12_POINT_STAR",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_12_POINT_STAR"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_16_POINT_STAR",
+            "name": "TYPE_16_POINT_STAR",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_16_POINT_STAR"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_24_POINT_STAR",
+            "name": "TYPE_24_POINT_STAR",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_24_POINT_STAR"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_32_POINT_STAR",
+            "name": "TYPE_32_POINT_STAR",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_32_POINT_STAR"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_4_POINT_STAR",
+            "name": "TYPE_4_POINT_STAR",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_4_POINT_STAR"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_5_POINT_STAR",
+            "name": "TYPE_5_POINT_STAR",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_5_POINT_STAR"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_6_POINT_STAR",
+            "name": "TYPE_6_POINT_STAR",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_6_POINT_STAR"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_7_POINT_STAR",
+            "name": "TYPE_7_POINT_STAR",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_7_POINT_STAR"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_8_POINT_STAR",
+            "name": "TYPE_8_POINT_STAR",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_8_POINT_STAR"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_ACTION_BUTTON_BACK_OR_PREVIOUS",
+            "name": "TYPE_ACTION_BUTTON_BACK_OR_PREVIOUS",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_ACTION_BUTTON_BACK_OR_PREVIOUS"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_ACTION_BUTTON_BEGINNING",
+            "name": "TYPE_ACTION_BUTTON_BEGINNING",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_ACTION_BUTTON_BEGINNING"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_ACTION_BUTTON_CUSTOM",
+            "name": "TYPE_ACTION_BUTTON_CUSTOM",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_ACTION_BUTTON_CUSTOM"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_ACTION_BUTTON_DOCUMENT",
+            "name": "TYPE_ACTION_BUTTON_DOCUMENT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_ACTION_BUTTON_DOCUMENT"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_ACTION_BUTTON_END",
+            "name": "TYPE_ACTION_BUTTON_END",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_ACTION_BUTTON_END"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_ACTION_BUTTON_FORWARD_OR_NEXT",
+            "name": "TYPE_ACTION_BUTTON_FORWARD_OR_NEXT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_ACTION_BUTTON_FORWARD_OR_NEXT"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_ACTION_BUTTON_HELP",
+            "name": "TYPE_ACTION_BUTTON_HELP",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_ACTION_BUTTON_HELP"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_ACTION_BUTTON_HOME",
+            "name": "TYPE_ACTION_BUTTON_HOME",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_ACTION_BUTTON_HOME"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_ACTION_BUTTON_INFORMATION",
+            "name": "TYPE_ACTION_BUTTON_INFORMATION",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_ACTION_BUTTON_INFORMATION"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_ACTION_BUTTON_MOVIE",
+            "name": "TYPE_ACTION_BUTTON_MOVIE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_ACTION_BUTTON_MOVIE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_ACTION_BUTTON_RETURN",
+            "name": "TYPE_ACTION_BUTTON_RETURN",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_ACTION_BUTTON_RETURN"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_ACTION_BUTTON_SOUND",
+            "name": "TYPE_ACTION_BUTTON_SOUND",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_ACTION_BUTTON_SOUND"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_ARC",
+            "name": "TYPE_ARC",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_ARC"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_BALLOON",
+            "name": "TYPE_BALLOON",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_BALLOON"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_BENT_ARROW",
+            "name": "TYPE_BENT_ARROW",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_BENT_ARROW"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_BENT_UP_ARROW",
+            "name": "TYPE_BENT_UP_ARROW",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_BENT_UP_ARROW"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_BEVEL",
+            "name": "TYPE_BEVEL",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_BEVEL"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_BLOCK_ARC",
+            "name": "TYPE_BLOCK_ARC",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_BLOCK_ARC"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_CAN",
+            "name": "TYPE_CAN",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_CAN"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_CHART_PLUS",
+            "name": "TYPE_CHART_PLUS",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_CHART_PLUS"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_CHART_STAR",
+            "name": "TYPE_CHART_STAR",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_CHART_STAR"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_CHARTX",
+            "name": "TYPE_CHARTX",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_CHARTX"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_CHEVRON",
+            "name": "TYPE_CHEVRON",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_CHEVRON"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_CHORD",
+            "name": "TYPE_CHORD",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_CHORD"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_CIRCULAR_ARROW",
+            "name": "TYPE_CIRCULAR_ARROW",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_CIRCULAR_ARROW"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_CLOUD",
+            "name": "TYPE_CLOUD",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_CLOUD"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_CLOUD_CALLOUT",
+            "name": "TYPE_CLOUD_CALLOUT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_CLOUD_CALLOUT"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_CORNER",
+            "name": "TYPE_CORNER",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_CORNER"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_CORNER_TABS",
+            "name": "TYPE_CORNER_TABS",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_CORNER_TABS"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_CROSS",
+            "name": "TYPE_CROSS",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_CROSS"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_CUBE",
+            "name": "TYPE_CUBE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_CUBE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_CURVED_DOWN_ARROW",
+            "name": "TYPE_CURVED_DOWN_ARROW",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_CURVED_DOWN_ARROW"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_CURVED_DOWN_RIBBON",
+            "name": "TYPE_CURVED_DOWN_RIBBON",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_CURVED_DOWN_RIBBON"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_CURVED_LEFT_ARROW",
+            "name": "TYPE_CURVED_LEFT_ARROW",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_CURVED_LEFT_ARROW"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_CURVED_RIGHT_ARROW",
+            "name": "TYPE_CURVED_RIGHT_ARROW",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_CURVED_RIGHT_ARROW"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_CURVED_UP_ARROW",
+            "name": "TYPE_CURVED_UP_ARROW",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_CURVED_UP_ARROW"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_CURVED_UP_RIBBON",
+            "name": "TYPE_CURVED_UP_RIBBON",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_CURVED_UP_RIBBON"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_DECAGON",
+            "name": "TYPE_DECAGON",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_DECAGON"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_DIAGONALSTRIPE",
+            "name": "TYPE_DIAGONALSTRIPE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_DIAGONALSTRIPE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_DIAMOND",
+            "name": "TYPE_DIAMOND",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_DIAMOND"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_DODECAGON",
+            "name": "TYPE_DODECAGON",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_DODECAGON"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_DONUT",
+            "name": "TYPE_DONUT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_DONUT"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_DOUBLE_BRACE",
+            "name": "TYPE_DOUBLE_BRACE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_DOUBLE_BRACE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_DOUBLE_BRACKET",
+            "name": "TYPE_DOUBLE_BRACKET",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_DOUBLE_BRACKET"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_DOUBLE_WAVE",
+            "name": "TYPE_DOUBLE_WAVE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_DOUBLE_WAVE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_DOWN_ARROW",
+            "name": "TYPE_DOWN_ARROW",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_DOWN_ARROW"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_DOWN_ARROWCALLOUT",
+            "name": "TYPE_DOWN_ARROWCALLOUT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_DOWN_ARROWCALLOUT"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_DOWN_RIBBON",
+            "name": "TYPE_DOWN_RIBBON",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_DOWN_RIBBON"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_EXPLOSIONEXPLOSION1",
+            "name": "TYPE_EXPLOSIONEXPLOSION1",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_EXPLOSIONEXPLOSION1"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_EXPLOSIONEXPLOSION2",
+            "name": "TYPE_EXPLOSIONEXPLOSION2",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_EXPLOSIONEXPLOSION2"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_ALTERNATEPROCESS",
+            "name": "TYPE_FLOWCHART_ALTERNATEPROCESS",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_ALTERNATEPROCESS"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_CARD",
+            "name": "TYPE_FLOWCHART_CARD",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_CARD"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_COLLATE",
+            "name": "TYPE_FLOWCHART_COLLATE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_COLLATE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_CONNECTOR",
+            "name": "TYPE_FLOWCHART_CONNECTOR",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_CONNECTOR"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_DATA",
+            "name": "TYPE_FLOWCHART_DATA",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_DATA"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_DECISION",
+            "name": "TYPE_FLOWCHART_DECISION",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_DECISION"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_DELAY",
+            "name": "TYPE_FLOWCHART_DELAY",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_DELAY"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_DIRECT_ACCESS_STORAGE",
+            "name": "TYPE_FLOWCHART_DIRECT_ACCESS_STORAGE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_DIRECT_ACCESS_STORAGE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_DISPLAY",
+            "name": "TYPE_FLOWCHART_DISPLAY",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_DISPLAY"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_DOCUMENT",
+            "name": "TYPE_FLOWCHART_DOCUMENT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_DOCUMENT"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_EXTRACT",
+            "name": "TYPE_FLOWCHART_EXTRACT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_EXTRACT"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_INTERNAL_STORAGE",
+            "name": "TYPE_FLOWCHART_INTERNAL_STORAGE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_INTERNAL_STORAGE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_MAGNETIC_DISK",
+            "name": "TYPE_FLOWCHART_MAGNETIC_DISK",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_MAGNETIC_DISK"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_MANUAL_INPUT",
+            "name": "TYPE_FLOWCHART_MANUAL_INPUT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_MANUAL_INPUT"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_MANUAL_OPERATION",
+            "name": "TYPE_FLOWCHART_MANUAL_OPERATION",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_MANUAL_OPERATION"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_MERGE",
+            "name": "TYPE_FLOWCHART_MERGE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_MERGE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_MULTIDOCUMENT",
+            "name": "TYPE_FLOWCHART_MULTIDOCUMENT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_MULTIDOCUMENT"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_OFFLINE_STORAGE",
+            "name": "TYPE_FLOWCHART_OFFLINE_STORAGE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_OFFLINE_STORAGE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_OFFPAGE_CONNECTOR",
+            "name": "TYPE_FLOWCHART_OFFPAGE_CONNECTOR",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_OFFPAGE_CONNECTOR"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_OR",
+            "name": "TYPE_FLOWCHART_OR",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_OR"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_PREDEFINED_PROCESS",
+            "name": "TYPE_FLOWCHART_PREDEFINED_PROCESS",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_PREDEFINED_PROCESS"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_PREPARATION",
+            "name": "TYPE_FLOWCHART_PREPARATION",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_PREPARATION"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_PROCESS",
+            "name": "TYPE_FLOWCHART_PROCESS",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_PROCESS"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_PUNCHEDTAPE",
+            "name": "TYPE_FLOWCHART_PUNCHEDTAPE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_PUNCHEDTAPE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_SEQUENTIAL_ACCESS_STORAGE",
+            "name": "TYPE_FLOWCHART_SEQUENTIAL_ACCESS_STORAGE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_SEQUENTIAL_ACCESS_STORAGE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_SORT",
+            "name": "TYPE_FLOWCHART_SORT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_SORT"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_STORED_DATA",
+            "name": "TYPE_FLOWCHART_STORED_DATA",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_STORED_DATA"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_SUMMING_JUNCTION",
+            "name": "TYPE_FLOWCHART_SUMMING_JUNCTION",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_SUMMING_JUNCTION"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FLOWCHART_TERMINATOR",
+            "name": "TYPE_FLOWCHART_TERMINATOR",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FLOWCHART_TERMINATOR"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FOLDED_CORNER",
+            "name": "TYPE_FOLDED_CORNER",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FOLDED_CORNER"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FRAME",
+            "name": "TYPE_FRAME",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FRAME"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_FUNNEL",
+            "name": "TYPE_FUNNEL",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_FUNNEL"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_GEAR_6",
+            "name": "TYPE_GEAR_6",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_GEAR_6"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_GEAR_9",
+            "name": "TYPE_GEAR_9",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_GEAR_9"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_HALF_FRAME",
+            "name": "TYPE_HALF_FRAME",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_HALF_FRAME"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_HEART",
+            "name": "TYPE_HEART",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_HEART"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_HEPTAGON",
+            "name": "TYPE_HEPTAGON",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_HEPTAGON"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_HEXAGON",
+            "name": "TYPE_HEXAGON",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_HEXAGON"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_HORIZONTAL_SCROLL",
+            "name": "TYPE_HORIZONTAL_SCROLL",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_HORIZONTAL_SCROLL"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_ISOSCELES_TRIANGLE",
+            "name": "TYPE_ISOSCELES_TRIANGLE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_ISOSCELES_TRIANGLE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LEFT_ARROW",
+            "name": "TYPE_LEFT_ARROW",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LEFT_ARROW"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LEFT_ARROW_CALLOUT",
+            "name": "TYPE_LEFT_ARROW_CALLOUT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LEFT_ARROW_CALLOUT"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LEFT_BRACE",
+            "name": "TYPE_LEFT_BRACE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LEFT_BRACE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LEFT_BRACKET",
+            "name": "TYPE_LEFT_BRACKET",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LEFT_BRACKET"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LEFT_CIRCULAR_ARROW",
+            "name": "TYPE_LEFT_CIRCULAR_ARROW",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LEFT_CIRCULAR_ARROW"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LEFT_RIGHT_ARROW",
+            "name": "TYPE_LEFT_RIGHT_ARROW",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LEFT_RIGHT_ARROW"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LEFT_RIGHT_ARROW_CALLOUT",
+            "name": "TYPE_LEFT_RIGHT_ARROW_CALLOUT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LEFT_RIGHT_ARROW_CALLOUT"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LEFT_RIGHT_CIRCULAR_ARROW",
+            "name": "TYPE_LEFT_RIGHT_CIRCULAR_ARROW",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LEFT_RIGHT_CIRCULAR_ARROW"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LEFT_RIGHT_RIBBON",
+            "name": "TYPE_LEFT_RIGHT_RIBBON",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LEFT_RIGHT_RIBBON"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LEFT_RIGHT_UP_ARROW",
+            "name": "TYPE_LEFT_RIGHT_UP_ARROW",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LEFT_RIGHT_UP_ARROW"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LEFT_UP_ARROW",
+            "name": "TYPE_LEFT_UP_ARROW",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LEFT_UP_ARROW"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LIGHTNING_BOLT",
+            "name": "TYPE_LIGHTNING_BOLT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LIGHTNING_BOLT"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LINE_CALLOUT_1",
+            "name": "TYPE_LINE_CALLOUT_1",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LINE_CALLOUT_1"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LINE_CALLOUT_1_ACCENT_BAR",
+            "name": "TYPE_LINE_CALLOUT_1_ACCENT_BAR",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LINE_CALLOUT_1_ACCENT_BAR"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LINE_CALLOUT_1_BORDER_AND_ACCENT_BAR",
+            "name": "TYPE_LINE_CALLOUT_1_BORDER_AND_ACCENT_BAR",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LINE_CALLOUT_1_BORDER_AND_ACCENT_BAR"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LINE_CALLOUT_1_NO_BORDER",
+            "name": "TYPE_LINE_CALLOUT_1_NO_BORDER",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LINE_CALLOUT_1_NO_BORDER"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LINE_CALLOUT_2",
+            "name": "TYPE_LINE_CALLOUT_2",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LINE_CALLOUT_2"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LINE_CALLOUT_2_ACCENT_BAR",
+            "name": "TYPE_LINE_CALLOUT_2_ACCENT_BAR",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LINE_CALLOUT_2_ACCENT_BAR"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LINE_CALLOUT_2_BORDER_AND_ACCENT_BAR",
+            "name": "TYPE_LINE_CALLOUT_2_BORDER_AND_ACCENT_BAR",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LINE_CALLOUT_2_BORDER_AND_ACCENT_BAR"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LINE_CALLOUT_2_NO_BORDER",
+            "name": "TYPE_LINE_CALLOUT_2_NO_BORDER",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LINE_CALLOUT_2_NO_BORDER"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LINE_CALLOUT_3",
+            "name": "TYPE_LINE_CALLOUT_3",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LINE_CALLOUT_3"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LINE_CALLOUT_3_ACCENT_BAR",
+            "name": "TYPE_LINE_CALLOUT_3_ACCENT_BAR",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LINE_CALLOUT_3_ACCENT_BAR"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LINE_CALLOUT_3_BORDER_AND_ACCENT_BAR",
+            "name": "TYPE_LINE_CALLOUT_3_BORDER_AND_ACCENT_BAR",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LINE_CALLOUT_3_BORDER_AND_ACCENT_BAR"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LINE_CALLOUT_3_NO_BORDER",
+            "name": "TYPE_LINE_CALLOUT_3_NO_BORDER",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LINE_CALLOUT_3_NO_BORDER"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LINE_CALLOUT_4",
+            "name": "TYPE_LINE_CALLOUT_4",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LINE_CALLOUT_4"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LINE_CALLOUT_4_ACCENT_BAR",
+            "name": "TYPE_LINE_CALLOUT_4_ACCENT_BAR",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LINE_CALLOUT_4_ACCENT_BAR"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LINE_CALLOUT_4_BORDER_AND_ACCENT_BAR",
+            "name": "TYPE_LINE_CALLOUT_4_BORDER_AND_ACCENT_BAR",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LINE_CALLOUT_4_BORDER_AND_ACCENT_BAR"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LINE_CALLOUT_4_NO_BORDER",
+            "name": "TYPE_LINE_CALLOUT_4_NO_BORDER",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LINE_CALLOUT_4_NO_BORDER"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_LINE_INVERSE",
+            "name": "TYPE_LINE_INVERSE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_LINE_INVERSE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_MATH_DIVIDE",
+            "name": "TYPE_MATH_DIVIDE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_MATH_DIVIDE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_MATH_EQUAL",
+            "name": "TYPE_MATH_EQUAL",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_MATH_EQUAL"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_MATH_MINUS",
+            "name": "TYPE_MATH_MINUS",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_MATH_MINUS"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_MATH_MULTIPLY",
+            "name": "TYPE_MATH_MULTIPLY",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_MATH_MULTIPLY"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_MATH_NOT_EQUAL",
+            "name": "TYPE_MATH_NOT_EQUAL",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_MATH_NOT_EQUAL"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_MATH_PLUS",
+            "name": "TYPE_MATH_PLUS",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_MATH_PLUS"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_MOON",
+            "name": "TYPE_MOON",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_MOON"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_NON_ISOSCELES_TRAPEZOID",
+            "name": "TYPE_NON_ISOSCELES_TRAPEZOID",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_NON_ISOSCELES_TRAPEZOID"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_NO_SYMBOL",
+            "name": "TYPE_NO_SYMBOL",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_NO_SYMBOL"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_NOTCHED_RIGHT_ARROW",
+            "name": "TYPE_NOTCHED_RIGHT_ARROW",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_NOTCHED_RIGHT_ARROW"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_OCTAGON",
+            "name": "TYPE_OCTAGON",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_OCTAGON"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_OVAL",
+            "name": "TYPE_OVAL",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_OVAL"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_OVAL_CALLOUT",
+            "name": "TYPE_OVAL_CALLOUT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_OVAL_CALLOUT"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_PARALLELOGRAM",
+            "name": "TYPE_PARALLELOGRAM",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_PARALLELOGRAM"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_PENTAGON",
+            "name": "TYPE_PENTAGON",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_PENTAGON"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_PIE",
+            "name": "TYPE_PIE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_PIE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_PIE_WEDGE",
+            "name": "TYPE_PIE_WEDGE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_PIE_WEDGE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_PLAQUE",
+            "name": "TYPE_PLAQUE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_PLAQUE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_PLAQUE_TABS",
+            "name": "TYPE_PLAQUE_TABS",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_PLAQUE_TABS"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_QUAD_ARROW",
+            "name": "TYPE_QUAD_ARROW",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_QUAD_ARROW"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_QUAD_ARROW_CALLOUT",
+            "name": "TYPE_QUAD_ARROW_CALLOUT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_QUAD_ARROW_CALLOUT"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_RECTANGLE",
+            "name": "TYPE_RECTANGLE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_RECTANGLE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_RECTANGULAR_CALLOUT",
+            "name": "TYPE_RECTANGULAR_CALLOUT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_RECTANGULAR_CALLOUT"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_REGULARP_ENTAGON",
+            "name": "TYPE_REGULARP_ENTAGON",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_REGULARP_ENTAGON"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_RIGHT_ARROW",
+            "name": "TYPE_RIGHT_ARROW",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_RIGHT_ARROW"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_RIGHT_ARROW_CALLOUT",
+            "name": "TYPE_RIGHT_ARROW_CALLOUT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_RIGHT_ARROW_CALLOUT"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_RIGHT_BRACE",
+            "name": "TYPE_RIGHT_BRACE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_RIGHT_BRACE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_RIGHT_BRACKET",
+            "name": "TYPE_RIGHT_BRACKET",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_RIGHT_BRACKET"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_RIGHT_TRIANGLE",
+            "name": "TYPE_RIGHT_TRIANGLE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_RIGHT_TRIANGLE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_ROUND_1_RECTANGLE",
+            "name": "TYPE_ROUND_1_RECTANGLE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_ROUND_1_RECTANGLE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_ROUND_2_DIAG_RECTANGLE",
+            "name": "TYPE_ROUND_2_DIAG_RECTANGLE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_ROUND_2_DIAG_RECTANGLE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_ROUND_2_SAME_RECTANGLE",
+            "name": "TYPE_ROUND_2_SAME_RECTANGLE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_ROUND_2_SAME_RECTANGLE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_ROUNDED_RECTANGLE",
+            "name": "TYPE_ROUNDED_RECTANGLE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_ROUNDED_RECTANGLE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_ROUNDED_RECTANGULAR_CALLOUT",
+            "name": "TYPE_ROUNDED_RECTANGULAR_CALLOUT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_ROUNDED_RECTANGULAR_CALLOUT"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_SMILEY_FACE",
+            "name": "TYPE_SMILEY_FACE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_SMILEY_FACE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_SNIP_1_RECTANGLE",
+            "name": "TYPE_SNIP_1_RECTANGLE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_SNIP_1_RECTANGLE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_SNIP_2_DIAG_RECTANGLE",
+            "name": "TYPE_SNIP_2_DIAG_RECTANGLE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_SNIP_2_DIAG_RECTANGLE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_SNIP_2_SAME_RECTANGLE",
+            "name": "TYPE_SNIP_2_SAME_RECTANGLE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_SNIP_2_SAME_RECTANGLE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_SNIP_ROUND_RECTANGLE",
+            "name": "TYPE_SNIP_ROUND_RECTANGLE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_SNIP_ROUND_RECTANGLE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_SQUARE_TABS",
+            "name": "TYPE_SQUARE_TABS",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_SQUARE_TABS"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_STRIPED_RIGHT_ARROW",
+            "name": "TYPE_STRIPED_RIGHT_ARROW",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_STRIPED_RIGHT_ARROW"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_SUN",
+            "name": "TYPE_SUN",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_SUN"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_SWOOSH_ARROW",
+            "name": "TYPE_SWOOSH_ARROW",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_SWOOSH_ARROW"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_TEAR",
+            "name": "TYPE_TEAR",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_TEAR"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_TRAPEZOID",
+            "name": "TYPE_TRAPEZOID",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_TRAPEZOID"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_UP_ARROW",
+            "name": "TYPE_UP_ARROW",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_UP_ARROW"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_UP_ARROW_CALLOUT",
+            "name": "TYPE_UP_ARROW_CALLOUT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_UP_ARROW_CALLOUT"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_UP_DOWN_ARROW",
+            "name": "TYPE_UP_DOWN_ARROW",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_UP_DOWN_ARROW"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_UP_DOWN_ARROW_CALLOUT",
+            "name": "TYPE_UP_DOWN_ARROW_CALLOUT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_UP_DOWN_ARROW_CALLOUT"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_UP_RIBBON",
+            "name": "TYPE_UP_RIBBON",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_UP_RIBBON"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_U_TURN_ARROW",
+            "name": "TYPE_U_TURN_ARROW",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_U_TURN_ARROW"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_VERTICAL_SCROLL",
+            "name": "TYPE_VERTICAL_SCROLL",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_VERTICAL_SCROLL"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003ATYPE_WAVE",
+            "name": "TYPE_WAVE",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#constant_TYPE_WAVE"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003A\u0024text",
+            "name": "text",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#property_text"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003A\u0024type",
+            "name": "type",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#property_type"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\AutoShape\u003A\u003A\u0024outline",
+            "name": "outline",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-AutoShape.html#property_outline"
+        },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Axis",
             "name": "Axis",
-            "summary": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Axis.",
+            "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Axis.html"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Axis\u003A\u003A__construct\u0028\u0029",
@@ -3106,9 +4316,19 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Axis.html#method_setOutline"
         },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Axis\u003A\u003AgetTitleRotation\u0028\u0029",
+            "name": "getTitleRotation",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Axis.html#method_getTitleRotation"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Axis\u003A\u003AsetTitleRotation\u0028\u0029",
+            "name": "setTitleRotation",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Axis.html#method_setTitleRotation"
+        },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Axis\u003A\u003AgetHashCode\u0028\u0029",
             "name": "getHashCode",
-            "summary": "Get\u0020hash\u0020code.",
+            "summary": "Get\u0020hash\u0020code",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Axis.html#method_getHashCode"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Axis\u003A\u003AgetHashIndex\u0028\u0029",
@@ -3130,6 +4350,16 @@ Search.appendIndex(
             "name": "setIsVisible",
             "summary": "Hide\u0020an\u0020axis.",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Axis.html#method_setIsVisible"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Axis\u003A\u003AgetTickLabelPosition\u0028\u0029",
+            "name": "getTickLabelPosition",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Axis.html#method_getTickLabelPosition"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Axis\u003A\u003AsetTickLabelPosition\u0028\u0029",
+            "name": "setTickLabelPosition",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Axis.html#method_setTickLabelPosition"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Axis\u003A\u003AAXIS_X",
             "name": "AXIS_X",
@@ -3161,14 +4391,34 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Axis.html#constant_TICK_MARK_OUTSIDE"
         },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Axis\u003A\u003ATICK_LABEL_POSITION_NEXT_TO",
+            "name": "TICK_LABEL_POSITION_NEXT_TO",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Axis.html#constant_TICK_LABEL_POSITION_NEXT_TO"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Axis\u003A\u003ATICK_LABEL_POSITION_HIGH",
+            "name": "TICK_LABEL_POSITION_HIGH",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Axis.html#constant_TICK_LABEL_POSITION_HIGH"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Axis\u003A\u003ATICK_LABEL_POSITION_LOW",
+            "name": "TICK_LABEL_POSITION_LOW",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Axis.html#constant_TICK_LABEL_POSITION_LOW"
+        },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Axis\u003A\u003A\u0024title",
             "name": "title",
             "summary": "Title.",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Axis.html#property_title"
         },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Axis\u003A\u003A\u0024titleRotation",
+            "name": "titleRotation",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Axis.html#property_titleRotation"
+        },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Axis\u003A\u003A\u0024formatCode",
             "name": "formatCode",
-            "summary": "Format\u0020code.",
+            "summary": "Format\u0020code",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Axis.html#property_formatCode"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Axis\u003A\u003A\u0024font",
@@ -3205,6 +4455,11 @@ Search.appendIndex(
             "name": "majorTickMark",
             "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Axis.html#property_majorTickMark"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Axis\u003A\u003A\u0024tickLabelPosition",
+            "name": "tickLabelPosition",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Axis.html#property_tickLabelPosition"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Axis\u003A\u003A\u0024minorUnit",
             "name": "minorUnit",
@@ -3458,8 +4713,13 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Marker",
             "name": "Marker",
-            "summary": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Axis.",
+            "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Marker.html"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Marker\u003A\u003A__construct\u0028\u0029",
+            "name": "__construct",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Marker.html#method___construct"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Marker\u003A\u003AgetSymbol\u0028\u0029",
             "name": "getSymbol",
@@ -3480,6 +4740,26 @@ Search.appendIndex(
             "name": "setSize",
             "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Marker.html#method_setSize"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Marker\u003A\u003AgetFill\u0028\u0029",
+            "name": "getFill",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Marker.html#method_getFill"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Marker\u003A\u003AsetFill\u0028\u0029",
+            "name": "setFill",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Marker.html#method_setFill"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Marker\u003A\u003AgetBorder\u0028\u0029",
+            "name": "getBorder",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Marker.html#method_getBorder"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Marker\u003A\u003AsetBorder\u0028\u0029",
+            "name": "setBorder",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Marker.html#method_setBorder"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Marker\u003A\u003ASYMBOL_CIRCLE",
             "name": "SYMBOL_CIRCLE",
@@ -3545,6 +4825,16 @@ Search.appendIndex(
             "name": "size",
             "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Marker.html#property_size"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Marker\u003A\u003A\u0024fill",
+            "name": "fill",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Marker.html#property_fill"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Marker\u003A\u003A\u0024border",
+            "name": "border",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Marker.html#property_border"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\PlotArea",
             "name": "PlotArea",
@@ -4251,6 +5541,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractTypeBar.html#method_setGapWidthPercent"
         },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\AbstractTypeBar\u003A\u003AgetOverlapWidthPercent\u0028\u0029",
+            "name": "getOverlapWidthPercent",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractTypeBar.html#method_getOverlapWidthPercent"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\AbstractTypeBar\u003A\u003AsetOverlapWidthPercent\u0028\u0029",
+            "name": "setOverlapWidthPercent",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractTypeBar.html#method_setOverlapWidthPercent"
+        },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\AbstractTypeBar\u003A\u003AgetHashCode\u0028\u0029",
             "name": "getHashCode",
             "summary": "Get\u0020hash\u0020code.",
@@ -4295,6 +5595,31 @@ Search.appendIndex(
             "name": "gapWidthPercent",
             "summary": "Space\u0020between\u0020bar\u0020or\u0020columns\u0020clusters.",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractTypeBar.html#property_gapWidthPercent"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\AbstractTypeBar\u003A\u003A\u0024overlapWidthPercent",
+            "name": "overlapWidthPercent",
+            "summary": "Overlap\u0020within\u0020bar\u0020or\u0020columns\u0020clusters.\u0020Value\u0020between\u0020100\u0020and\u0020\u002D100\u0020percent.",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractTypeBar.html#property_overlapWidthPercent"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\AbstractTypeLine",
+            "name": "AbstractTypeLine",
+            "summary": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type.",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractTypeLine.html"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\AbstractTypeLine\u003A\u003A\u0024isSmooth",
+            "name": "isSmooth",
+            "summary": "Is\u0020Line\u0020Smooth\u003F",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractTypeLine.html#property_isSmooth"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\AbstractTypeLine\u003A\u003AsetIsSmooth\u0028\u0029",
+            "name": "setIsSmooth",
+            "summary": "Set\u0020Line\u0020Smoothness",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractTypeLine.html#method_setIsSmooth"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\AbstractTypeLine\u003A\u003AgetHashCode\u0028\u0029",
+            "name": "getHashCode",
+            "summary": "Get\u0020hash\u0020code.",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractTypeLine.html#method_getHashCode"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\AbstractTypePie",
             "name": "AbstractTypePie",
@@ -4383,7 +5708,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\Line",
             "name": "Line",
-            "summary": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\Line.",
+            "summary": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type.",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Type-Line.html"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\Line\u003A\u003AgetHashCode\u0028\u0029",
@@ -4411,9 +5736,19 @@ Search.appendIndex(
             "summary": "Get\u0020hash\u0020code.",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Type-Pie3D.html#method_getHashCode"
         },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\Radar",
+            "name": "Radar",
+            "summary": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type.",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Type-Radar.html"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\Radar\u003A\u003AgetHashCode\u0028\u0029",
+            "name": "getHashCode",
+            "summary": "Get\u0020hash\u0020code",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Type-Radar.html#method_getHashCode"
+        },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\Scatter",
             "name": "Scatter",
-            "summary": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\Scatter.",
+            "summary": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type.",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Chart-Type-Scatter.html"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\\Type\\Scatter\u003A\u003AgetHashCode\u0028\u0029",
@@ -4556,6 +5891,11 @@ Search.appendIndex(
             "summary": "Magic\u0020Method\u0020\u003A\u0020clone.",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Chart.html#method___clone"
         },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\u003A\u003AgetDisplayBlankAs\u0028\u0029",
+            "name": "getDisplayBlankAs",
+            "summary": "How\u0020missing\/blank\u0020values\u0020are\u0020displayed\u0020on\u0020chart\u0020\u0028dispBlanksAs\u0020property\u0029",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart.html#method_getDisplayBlankAs"
+        },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\u003A\u003AgetTitle\u0028\u0029",
             "name": "getTitle",
             "summary": "Get\u0020Title.",
@@ -4578,12 +5918,17 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\u003A\u003AhasIncludedSpreadsheet\u0028\u0029",
             "name": "hasIncludedSpreadsheet",
-            "summary": "Include\u0020spreadsheet\u0020for\u0020editing\u0020data\u003F\u0020Requires\u0020PHPExcel\u0020in\u0020the\u0020same\u0020folder\u0020as\u0020PhpPresentation.",
+            "summary": "Is\u0020the\u0020spreadsheet\u0020included\u0020for\u0020editing\u0020data\u0020\u003F",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Chart.html#method_hasIncludedSpreadsheet"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\u003A\u003AsetDisplayBlankAs\u0028\u0029",
+            "name": "setDisplayBlankAs",
+            "summary": "Define\u0020a\u0020way\u0020to\u0020display\u0020missing\/blank\u0020values\u0020\u0028dispBlanksAs\u0020property\u0029",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart.html#method_setDisplayBlankAs"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\u003A\u003AsetIncludeSpreadsheet\u0028\u0029",
             "name": "setIncludeSpreadsheet",
-            "summary": "Include\u0020spreadsheet\u0020for\u0020editing\u0020data\u003F\u0020Requires\u0020PHPExcel\u0020in\u0020the\u0020same\u0020folder\u0020as\u0020PhpPresentation.",
+            "summary": "Is\u0020the\u0020spreadsheet\u0020included\u0020for\u0020editing\u0020data\u0020\u003F",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Chart.html#method_setIncludeSpreadsheet"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\u003A\u003AgetIndexedFilename\u0028\u0029",
@@ -4595,6 +5940,21 @@ Search.appendIndex(
             "name": "getHashCode",
             "summary": "Get\u0020hash\u0020code.",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Chart.html#method_getHashCode"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\u003A\u003ABLANKAS_GAP",
+            "name": "BLANKAS_GAP",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart.html#constant_BLANKAS_GAP"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\u003A\u003ABLANKAS_ZERO",
+            "name": "BLANKAS_ZERO",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart.html#constant_BLANKAS_ZERO"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\u003A\u003ABLANKAS_SPAN",
+            "name": "BLANKAS_SPAN",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart.html#constant_BLANKAS_SPAN"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\u003A\u003A\u0024title",
             "name": "title",
@@ -4618,8 +5978,13 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\u003A\u003A\u0024includeSpreadsheet",
             "name": "includeSpreadsheet",
-            "summary": "Include\u0020spreadsheet\u0020for\u0020editing\u0020data\u003F\u0020Requires\u0020PHPExcel\u0020in\u0020the\u0020same\u0020folder\u0020as\u0020PhpPresentation.",
+            "summary": "Is\u0020the\u0020spreadsheet\u0020included\u0020for\u0020editing\u0020data\u0020\u003F",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Chart.html#property_includeSpreadsheet"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Chart\u003A\u003A\u0024displayBlankAs",
+            "name": "displayBlankAs",
+            "summary": "How\u0020to\u0020display\u0020blank\u0020\u0028missing\u0029\u0020values\u003F\u0020Not\u0020set\u0020by\u0020default.",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Chart.html#property_displayBlankAs"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Comment\\Author",
             "name": "Author",
@@ -5443,7 +6808,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003AsetBulletStyle\u0028\u0029",
             "name": "setBulletStyle",
-            "summary": "Set\u0020bullet\u0020style.",
+            "summary": "Set\u0020bullet\u0020style",
             "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#method_setBulletStyle"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003AcreateText\u0028\u0029",
@@ -5508,8 +6873,48 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003AsetLineSpacing\u0028\u0029",
             "name": "setLineSpacing",
-            "summary": "",
+            "summary": "Value\u0020in\u0020points",
             "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#method_setLineSpacing"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003AgetLineSpacingMode\u0028\u0029",
+            "name": "getLineSpacingMode",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#method_getLineSpacingMode"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003AsetLineSpacingMode\u0028\u0029",
+            "name": "setLineSpacingMode",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#method_setLineSpacingMode"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003AgetSpacingBefore\u0028\u0029",
+            "name": "getSpacingBefore",
+            "summary": "Value\u0020in\u0020points",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#method_getSpacingBefore"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003AsetSpacingBefore\u0028\u0029",
+            "name": "setSpacingBefore",
+            "summary": "Value\u0020in\u0020points",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#method_setSpacingBefore"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003AgetSpacingAfter\u0028\u0029",
+            "name": "getSpacingAfter",
+            "summary": "Value\u0020in\u0020points",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#method_getSpacingAfter"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003AsetSpacingAfter\u0028\u0029",
+            "name": "setSpacingAfter",
+            "summary": "Value\u0020in\u0020points",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#method_setSpacingAfter"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003ALINE_SPACING_MODE_PERCENT",
+            "name": "LINE_SPACING_MODE_PERCENT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#constant_LINE_SPACING_MODE_PERCENT"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003ALINE_SPACING_MODE_POINT",
+            "name": "LINE_SPACING_MODE_POINT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#constant_LINE_SPACING_MODE_POINT"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003A\u0024richTextElements",
             "name": "richTextElements",
@@ -5535,6 +6940,21 @@ Search.appendIndex(
             "name": "lineSpacing",
             "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#property_lineSpacing"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003A\u0024lineSpacingMode",
+            "name": "lineSpacingMode",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#property_lineSpacingMode"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003A\u0024spacingBefore",
+            "name": "spacingBefore",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#property_spacingBefore"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003A\u0024spacingAfter",
+            "name": "spacingAfter",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText-Paragraph.html#property_spacingAfter"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\\Paragraph\u003A\u003A\u0024hashIndex",
             "name": "hashIndex",
@@ -5891,6 +7311,16 @@ Search.appendIndex(
             "summary": "Set\u0020vertical\u0020auto\u0020shrink.",
             "url": "classes/PhpOffice-PhpPresentation-Shape-RichText.html#method_hasAutoShrinkVertical"
         },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\u003A\u003AgetColumnSpacing\u0028\u0029",
+            "name": "getColumnSpacing",
+            "summary": "Get\u0020spacing\u0020between\u0020columns",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText.html#method_getColumnSpacing"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\u003A\u003AsetColumnSpacing\u0028\u0029",
+            "name": "setColumnSpacing",
+            "summary": "Set\u0020spacing\u0020between\u0020columns",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText.html#method_setColumnSpacing"
+        },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\u003A\u003AgetHashCode\u0028\u0029",
             "name": "getHashCode",
             "summary": "Get\u0020hash\u0020code.",
@@ -5980,6 +7410,11 @@ Search.appendIndex(
             "name": "columns",
             "summary": "Number\u0020of\u0020columns\u0020\u00281\u0020\u002D\u002016\u0029.",
             "url": "classes/PhpOffice-PhpPresentation-Shape-RichText.html#property_columns"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\u003A\u003A\u0024columnSpacing",
+            "name": "columnSpacing",
+            "summary": "The\u0020spacing\u0020between\u0020columns",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-RichText.html#property_columnSpacing"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\RichText\u003A\u003A\u0024bottomInset",
             "name": "bottomInset",
@@ -6208,13 +7643,18 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Table\\Row\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "Create\u0020a\u0020new\u0020\\PhpOffice\\PhpPresentation\\Shape\\Table\\Row\u0020instance.",
+            "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Table-Row.html#method___construct"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Table\\Row\u003A\u003AgetCell\u0028\u0029",
             "name": "getCell",
             "summary": "Get\u0020cell.",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Table-Row.html#method_getCell"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Table\\Row\u003A\u003AhasCell\u0028\u0029",
+            "name": "hasCell",
+            "summary": "Get\u0020cell.",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Table-Row.html#method_hasCell"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Table\\Row\u003A\u003AgetCells\u0028\u0029",
             "name": "getCells",
@@ -6300,6 +7740,11 @@ Search.appendIndex(
             "name": "getRow",
             "summary": "Get\u0020row.",
             "url": "classes/PhpOffice-PhpPresentation-Shape-Table.html#method_getRow"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Table\u003A\u003AhasRow\u0028\u0029",
+            "name": "hasRow",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Shape-Table.html#method_hasRow"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Shape\\Table\u003A\u003AgetRows\u0028\u0029",
             "name": "getRows",
@@ -6678,7 +8123,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Slide\\Iterator",
             "name": "Iterator",
-            "summary": "Used\u0020to\u0020iterate\u0020slides\u0020in\u0020PhpPresentation.",
+            "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-Slide-Iterator.html"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Slide\\Iterator\u003A\u003A__construct\u0028\u0029",
@@ -6788,7 +8233,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Slide\\Note",
             "name": "Note",
-            "summary": "Note\u0020class.",
+            "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-Slide-Note.html"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Slide\\Note\u003A\u003A__construct\u0028\u0029",
@@ -6953,7 +8398,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Slide\\SlideMaster",
             "name": "SlideMaster",
-            "summary": "Class\u0020SlideMaster.",
+            "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-Slide-SlideMaster.html"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Slide\\SlideMaster\u003A\u003A__construct\u0028\u0029",
@@ -7443,13 +8888,8 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Style\\Alignment",
             "name": "Alignment",
-            "summary": "\\PhpOffice\\PhpPresentation\\Style\\Alignment.",
+            "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-Style-Alignment.html"
-        },                {
-            "fqsen": "\\PhpOffice\\PhpPresentation\\Style\\Alignment\u003A\u003A__construct\u0028\u0029",
-            "name": "__construct",
-            "summary": "Create\u0020a\u0020new\u0020\\PhpOffice\\PhpPresentation\\Style\\Alignment.",
-            "url": "classes/PhpOffice-PhpPresentation-Style-Alignment.html#method___construct"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Style\\Alignment\u003A\u003AgetHorizontal\u0028\u0029",
             "name": "getHorizontal",
@@ -7540,6 +8980,16 @@ Search.appendIndex(
             "name": "setTextDirection",
             "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-Style-Alignment.html#method_setTextDirection"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Style\\Alignment\u003A\u003A\u0024isRTL",
+            "name": "isRTL",
+            "summary": "RTL\u0020Direction\u0020Support",
+            "url": "classes/PhpOffice-PhpPresentation-Style-Alignment.html#property_isRTL"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Style\\Alignment\u003A\u003AsetIsRTL\u0028\u0029",
+            "name": "setIsRTL",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Style-Alignment.html#method_setIsRTL"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Style\\Alignment\u003A\u003AgetHashCode\u0028\u0029",
             "name": "getHashCode",
@@ -7688,12 +9138,12 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Style\\Border",
             "name": "Border",
-            "summary": "\\PhpOffice\\PhpPresentation\\Style\\Border.",
+            "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-Style-Border.html"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Style\\Border\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "Create\u0020a\u0020new\u0020\\PhpOffice\\PhpPresentation\\Style\\Border.",
+            "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-Style-Border.html#method___construct"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Style\\Border\u003A\u003AgetLineWidth\u0028\u0029",
@@ -8508,7 +9958,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Style\\Fill",
             "name": "Fill",
-            "summary": "\\PhpOffice\\PhpPresentation\\Style\\Fill.",
+            "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-Style-Fill.html"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Style\\Fill\u003A\u003A__construct\u0028\u0029",
@@ -8708,17 +10158,17 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Style\\Font\u003A\u003A__construct\u0028\u0029",
             "name": "__construct",
-            "summary": "Create\u0020a\u0020new\u0020\\PhpOffice\\PhpPresentation\\Style\\Font.",
+            "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-Style-Font.html#method___construct"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Style\\Font\u003A\u003AgetName\u0028\u0029",
             "name": "getName",
-            "summary": "Get\u0020Name.",
+            "summary": "Get\u0020Name",
             "url": "classes/PhpOffice-PhpPresentation-Style-Font.html#method_getName"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Style\\Font\u003A\u003AsetName\u0028\u0029",
             "name": "setName",
-            "summary": "Set\u0020Name.",
+            "summary": "Set\u0020Name",
             "url": "classes/PhpOffice-PhpPresentation-Style-Font.html#method_setName"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Style\\Font\u003A\u003AgetCharacterSpacing\u0028\u0029",
@@ -8810,6 +10260,16 @@ Search.appendIndex(
             "name": "setColor",
             "summary": "Set\u0020Color.",
             "url": "classes/PhpOffice-PhpPresentation-Style-Font.html#method_setColor"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Style\\Font\u003A\u003AgetFormat\u0028\u0029",
+            "name": "getFormat",
+            "summary": "Get\u0020format",
+            "url": "classes/PhpOffice-PhpPresentation-Style-Font.html#method_getFormat"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Style\\Font\u003A\u003AsetFormat\u0028\u0029",
+            "name": "setFormat",
+            "summary": "Set\u0020format",
+            "url": "classes/PhpOffice-PhpPresentation-Style-Font.html#method_setFormat"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Style\\Font\u003A\u003AgetHashCode\u0028\u0029",
             "name": "getHashCode",
@@ -8916,6 +10376,21 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-Style-Font.html#constant_UNDERLINE_WORDS"
         },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Style\\Font\u003A\u003AFORMAT_LATIN",
+            "name": "FORMAT_LATIN",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Style-Font.html#constant_FORMAT_LATIN"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Style\\Font\u003A\u003AFORMAT_EAST_ASIAN",
+            "name": "FORMAT_EAST_ASIAN",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Style-Font.html#constant_FORMAT_EAST_ASIAN"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Style\\Font\u003A\u003AFORMAT_COMPLEX_SCRIPT",
+            "name": "FORMAT_COMPLEX_SCRIPT",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Style-Font.html#constant_FORMAT_COMPLEX_SCRIPT"
+        },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Style\\Font\u003A\u003A\u0024name",
             "name": "name",
             "summary": "Name.",
@@ -8965,6 +10440,11 @@ Search.appendIndex(
             "name": "characterSpacing",
             "summary": "Character\u0020Spacing.",
             "url": "classes/PhpOffice-PhpPresentation-Style-Font.html#property_characterSpacing"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Style\\Font\u003A\u003A\u0024format",
+            "name": "format",
+            "summary": "Format",
+            "url": "classes/PhpOffice-PhpPresentation-Style-Font.html#property_format"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Style\\Font\u003A\u003A\u0024hashIndex",
             "name": "hashIndex",
@@ -9208,7 +10688,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Style\\TextStyle",
             "name": "TextStyle",
-            "summary": "Class\u0020TextStyle.",
+            "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-Style-TextStyle.html"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Style\\TextStyle\u003A\u003A__construct\u0028\u0029",
@@ -9591,6 +11071,16 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-Writer-ODPresentation-ObjectsChart.html#method_writeAxisStyle"
         },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Writer\\ODPresentation\\ObjectsChart\u003A\u003AwriteAxisMainStyle\u0028\u0029",
+            "name": "writeAxisMainStyle",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Writer-ODPresentation-ObjectsChart.html#method_writeAxisMainStyle"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Writer\\ODPresentation\\ObjectsChart\u003A\u003AwriteAxisTitleStyle\u0028\u0029",
+            "name": "writeAxisTitleStyle",
+            "summary": "",
+            "url": "classes/PhpOffice-PhpPresentation-Writer-ODPresentation-ObjectsChart.html#method_writeAxisTitleStyle"
+        },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Writer\\ODPresentation\\ObjectsChart\u003A\u003AwriteGridlineStyle\u0028\u0029",
             "name": "writeGridlineStyle",
             "summary": "",
@@ -9853,7 +11343,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Writer\\PowerPoint2007\\AbstractDecoratorWriter\u003A\u003AwriteOutline\u0028\u0029",
             "name": "writeOutline",
-            "summary": "Write\u0020Outline.",
+            "summary": "Write\u0020Outline",
             "url": "classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-AbstractDecoratorWriter.html#method_writeOutline"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Writer\\PowerPoint2007\\AbstractDecoratorWriter\u003A\u003AabsoluteZipPath\u0028\u0029",
@@ -9911,9 +11401,14 @@ Search.appendIndex(
             "summary": "Write\u0020Note\u0020Slide.",
             "url": "classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-AbstractSlide.html#method_writeNote"
         },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Writer\\PowerPoint2007\\AbstractSlide\u003A\u003AwriteShapeAutoShape\u0028\u0029",
+            "name": "writeShapeAutoShape",
+            "summary": "Write\u0020AutoShape",
+            "url": "classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-AbstractSlide.html#method_writeShapeAutoShape"
+        },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Writer\\PowerPoint2007\\AbstractSlide\u003A\u003AwriteShapeChart\u0028\u0029",
             "name": "writeShapeChart",
-            "summary": "Write\u0020chart.",
+            "summary": "Write\u0020chart",
             "url": "classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-AbstractSlide.html#method_writeShapeChart"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Writer\\PowerPoint2007\\AbstractSlide\u003A\u003AwriteShapePic\u0028\u0029",
@@ -10053,7 +11548,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Writer\\PowerPoint2007\\PptCharts\u003A\u003AwriteTitle\u0028\u0029",
             "name": "writeTitle",
-            "summary": "Write\u0020Title.",
+            "summary": "Write\u0020Title",
             "url": "classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-PptCharts.html#method_writeTitle"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Writer\\PowerPoint2007\\PptCharts\u003A\u003AwritePlotArea\u0028\u0029",
@@ -10106,9 +11601,14 @@ Search.appendIndex(
             "summary": "Write\u0020Type\u0020Line.",
             "url": "classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-PptCharts.html#method_writeTypeLine"
         },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Writer\\PowerPoint2007\\PptCharts\u003A\u003AwriteTypeRadar\u0028\u0029",
+            "name": "writeTypeRadar",
+            "summary": "Write\u0020Type\u0020Radar",
+            "url": "classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-PptCharts.html#method_writeTypeRadar"
+        },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Writer\\PowerPoint2007\\PptCharts\u003A\u003AwriteTypeScatter\u0028\u0029",
             "name": "writeTypeScatter",
-            "summary": "Write\u0020Type\u0020Scatter.",
+            "summary": "Write\u0020Type\u0020Scatter",
             "url": "classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-PptCharts.html#method_writeTypeScatter"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Writer\\PowerPoint2007\\PptCharts\u003A\u003AwriteChartRelationships\u0028\u0029",
@@ -10206,6 +11706,11 @@ Search.appendIndex(
             "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-PptSlideMasters.html#method_render"
         },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Writer\\PowerPoint2007\\PptSlideMasters\u003A\u003AwriteSlideMasterRelationships\u0028\u0029",
+            "name": "writeSlideMasterRelationships",
+            "summary": "Write\u0020slide\u0020master\u0020relationships\u0020to\u0020XML\u0020format.",
+            "url": "classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-PptSlideMasters.html#method_writeSlideMasterRelationships"
+        },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Writer\\PowerPoint2007\\PptSlideMasters\u003A\u003AwriteSlideMaster\u0028\u0029",
             "name": "writeSlideMaster",
             "summary": "Write\u0020slide\u0020to\u0020XML\u0020format.",
@@ -10235,11 +11740,6 @@ Search.appendIndex(
             "name": "writeSlideAnimations",
             "summary": "",
             "url": "classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-PptSlides.html#method_writeSlideAnimations"
-        },                {
-            "fqsen": "\\PhpOffice\\PhpPresentation\\Writer\\PowerPoint2007\\PptSlides\u003A\u003AwriteShapeDrawing\u0028\u0029",
-            "name": "writeShapeDrawing",
-            "summary": "Write\u0020pic.",
-            "url": "classes/PhpOffice-PhpPresentation-Writer-PowerPoint2007-PptSlides.html#method_writeShapeDrawing"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Writer\\PowerPoint2007\\PptTableProps",
             "name": "PptTableProps",
@@ -10363,7 +11863,7 @@ Search.appendIndex(
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Writer\\WriterInterface\u003A\u003Asave\u0028\u0029",
             "name": "save",
-            "summary": "Save\u0020PhpPresentation\u0020to\u0020file.",
+            "summary": "Save\u0020PhpPresentation\u0020to\u0020file",
             "url": "classes/PhpOffice-PhpPresentation-Writer-WriterInterface.html#method_save"
         },                {
             "fqsen": "\\",
@@ -10380,6 +11880,11 @@ Search.appendIndex(
             "name": "PhpOffice",
             "summary": "",
             "url": "namespaces/phpoffice.html"
+        },                {
+            "fqsen": "\\PhpOffice\\PhpPresentation\\Exception",
+            "name": "Exception",
+            "summary": "",
+            "url": "namespaces/phpoffice-phppresentation-exception.html"
         },                {
             "fqsen": "\\PhpOffice\\PhpPresentation\\Reader",
             "name": "Reader",

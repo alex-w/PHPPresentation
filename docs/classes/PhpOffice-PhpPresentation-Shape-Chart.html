@@ -8,12 +8,16 @@
     <link rel="icon" href="images/favicon.ico"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
-            <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/template.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
                 <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
         <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
         <script src="js/search.js"></script>
         <script defer src="js/searchIndex.js"></script>
     </head>
@@ -48,16 +52,23 @@
     Menu
 </label>
 <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
-    
-    <section class="phpdocumentor-sidebar__category">
-        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
-                                                <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/phpoffice.html"><abbr title="\PhpOffice">PhpOffice</abbr></a></h4>
-                <ul class="phpdocumentor-list">
-                                            <li><a href="namespaces/phpoffice-phppresentation.html"><abbr title="\PhpOffice\PhpPresentation">PhpPresentation</abbr></a></li>
-                                    </ul>
-                        </section>
+                    <section class="phpdocumentor-sidebar__category">
+            <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/phpoffice.html">PhpOffice</a></h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/phpoffice-phppresentation.html">PhpPresentation</a>
+                
+            </li>
+            </ul>
 
-    
+                        </section>
+                <section class="phpdocumentor-sidebar__category">
+            <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace"><a href="packages/Application.html">Application</a></h4>
+
+                        </section>
+            
     <section class="phpdocumentor-sidebar__category">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
                 <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
@@ -86,6 +97,12 @@
         extends <a href="classes/PhpOffice-PhpPresentation-Shape-AbstractGraphic.html"><abbr title="\PhpOffice\PhpPresentation\Shape\AbstractGraphic">AbstractGraphic</abbr></a>
     </span>
     
+            <div class="phpdocumentor-element__package">
+            in package
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/Application.html">Application</a></li>
+                            </ul>
+        </div>
     
             <span class="phpdocumentor-element__implements">
             implements
@@ -96,12 +113,12 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart.php"><a href="files/src-phppresentation-shape-chart.html"><abbr title="src/PhpPresentation/Shape/Chart.php">Chart.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">30</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">32</span>
+
+    </aside>
 
             <p class="phpdocumentor-summary">Chart element.</p>
 
-    <section class="phpdocumentor-description"></section>
 
 
 
@@ -127,6 +144,27 @@
 </h3>
 
 <dl class="phpdocumentor-table-of-contents">
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="classes/PhpOffice-PhpPresentation-Shape-Chart.html#constant_BLANKAS_GAP">BLANKAS_GAP</a>
+    <span>
+        &nbsp;= &#039;gap&#039;                    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="classes/PhpOffice-PhpPresentation-Shape-Chart.html#constant_BLANKAS_SPAN">BLANKAS_SPAN</a>
+    <span>
+        &nbsp;= &#039;span&#039;                    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -constant -public">
+    <a href="classes/PhpOffice-PhpPresentation-Shape-Chart.html#constant_BLANKAS_ZERO">BLANKAS_ZERO</a>
+    <span>
+        &nbsp;= &#039;zero&#039;                    </span>
+</dt>
+<dd></dd>
+
                 <dt class="phpdocumentor-table-of-contents__entry -property -public">
     <a href="classes/PhpOffice-PhpPresentation-Shape-AbstractGraphic.html#property_relationId">$relationId</a>
     <span>
@@ -226,6 +264,13 @@
 <dd>Border.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
+    <a href="classes/PhpOffice-PhpPresentation-Shape-Chart.html#property_displayBlankAs">$displayBlankAs</a>
+    <span>
+                &nbsp;: string            </span>
+</dt>
+<dd>How to display blank (missing) values? Not set by default.</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/PhpOffice-PhpPresentation-AbstractShape.html#property_fill">$fill</a>
     <span>
                 &nbsp;: <a href="classes/PhpOffice-PhpPresentation-Style-Fill.html"><abbr title="\PhpOffice\PhpPresentation\Style\Fill">Fill</abbr></a>|null            </span>
@@ -258,7 +303,7 @@
     <span>
                 &nbsp;: bool            </span>
 </dt>
-<dd>Include spreadsheet for editing data? Requires PHPExcel in the same folder as PhpPresentation.</dd>
+<dd>Is the spreadsheet included for editing data ?</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/PhpOffice-PhpPresentation-Shape-Chart.html#property_legend">$legend</a>
@@ -324,6 +369,13 @@
 <dd>Get Description.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/PhpOffice-PhpPresentation-Shape-Chart.html#method_getDisplayBlankAs">getDisplayBlankAs()</a>
+    <span>
+                        &nbsp;: string    </span>
+</dt>
+<dd>How missing/blank values are displayed on chart (dispBlanksAs property)</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/PhpOffice-PhpPresentation-AbstractShape.html#method_getFill">getFill()</a>
     <span>
                         &nbsp;: <a href="classes/PhpOffice-PhpPresentation-Style-Fill.html"><abbr title="\PhpOffice\PhpPresentation\Style\Fill">Fill</abbr></a>|null    </span>
@@ -356,7 +408,7 @@
     <span>
                         &nbsp;: <a href="classes/PhpOffice-PhpPresentation-Shape-Hyperlink.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Hyperlink">Hyperlink</abbr></a>    </span>
 </dt>
-<dd>Get Hyperlink.</dd>
+<dd>Get Hyperlink</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/PhpOffice-PhpPresentation-Shape-AbstractGraphic.html#method_getImageIndex">getImageIndex()</a>
@@ -461,7 +513,7 @@
     <span>
                         &nbsp;: bool    </span>
 </dt>
-<dd>Include spreadsheet for editing data? Requires PHPExcel in the same folder as PhpPresentation.</dd>
+<dd>Is the spreadsheet included for editing data ?</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/PhpOffice-PhpPresentation-AbstractShape.html#method_isPlaceholder">isPlaceholder()</a>
@@ -492,6 +544,13 @@
 <dd>Set Description.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/PhpOffice-PhpPresentation-Shape-Chart.html#method_setDisplayBlankAs">setDisplayBlankAs()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd>Define a way to display missing/blank values (dispBlanksAs property)</dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/PhpOffice-PhpPresentation-AbstractShape.html#method_setFill">setFill()</a>
     <span>
                         &nbsp;: self    </span>
@@ -517,14 +576,14 @@
     <span>
                         &nbsp;: self    </span>
 </dt>
-<dd>Set Hyperlink.</dd>
+<dd>Set Hyperlink</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/PhpOffice-PhpPresentation-Shape-Chart.html#method_setIncludeSpreadsheet">setIncludeSpreadsheet()</a>
     <span>
-                        &nbsp;: <a href="classes/PhpOffice-PhpPresentation-Shape-Chart.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Chart">Chart</abbr></a>    </span>
+                        &nbsp;: self    </span>
 </dt>
-<dd>Include spreadsheet for editing data? Requires PHPExcel in the same folder as PhpPresentation.</dd>
+<dd>Is the spreadsheet included for editing data ?</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/PhpOffice-PhpPresentation-Shape-AbstractGraphic.html#method_setName">setName()</a>
@@ -594,6 +653,99 @@
 
 
         
+    <section class="phpdocumentor-constants">
+        <h3 class="phpdocumentor-elements__header" id="constants">
+            Constants
+            <a href="classes/PhpOffice-PhpPresentation-Shape-Chart.html#constants" class="headerlink"><i class="fas fa-link"></i></a>
+        </h3>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_BLANKAS_GAP">
+        BLANKAS_GAP
+        <a href="classes/PhpOffice-PhpPresentation-Shape-Chart.html#constant_BLANKAS_GAP" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart.php"><a href="files/src-phppresentation-shape-chart.html"><abbr title="src/PhpPresentation/Shape/Chart.php">Chart.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">34</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">BLANKAS_GAP</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;gap&#039;</span>
+</code>
+
+
+        <section class="phpdocumentor-description"></section>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_BLANKAS_SPAN">
+        BLANKAS_SPAN
+        <a href="classes/PhpOffice-PhpPresentation-Shape-Chart.html#constant_BLANKAS_SPAN" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart.php"><a href="files/src-phppresentation-shape-chart.html"><abbr title="src/PhpPresentation/Shape/Chart.php">Chart.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">36</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">BLANKAS_SPAN</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;span&#039;</span>
+</code>
+
+
+        <section class="phpdocumentor-description"></section>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+                    <article class="phpdocumentor-element -constant -public ">
+    <h4 class="phpdocumentor-element__name" id="constant_BLANKAS_ZERO">
+        BLANKAS_ZERO
+        <a href="classes/PhpOffice-PhpPresentation-Shape-Chart.html#constant_BLANKAS_ZERO" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart.php"><a href="files/src-phppresentation-shape-chart.html"><abbr title="src/PhpPresentation/Shape/Chart.php">Chart.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">35</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-signature phpdocumentor-code ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+    <span class="phpdocumentor-signature__type">mixed</span>
+    <span class="phpdocumentor-signature__name">BLANKAS_ZERO</span>
+    = <span class="phpdocumentor-signature__default-value">&#039;zero&#039;</span>
+</code>
+
+
+        <section class="phpdocumentor-description"></section>
+
+        <section class="phpdocumentor-description"></section>
+
+    
+
+</article>
+            </section>
 
         
     <section class="phpdocumentor-properties">
@@ -617,8 +769,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/AbstractGraphic.php"><a href="files/src-phppresentation-shape-abstractgraphic.html"><abbr title="src/PhpPresentation/Shape/AbstractGraphic.php">AbstractGraphic.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">69</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">71</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Slide relation ID (should not be used by user code!).</p>
 
@@ -628,8 +781,8 @@
     <span class="phpdocumentor-signature__name">$relationId</span>
      = <span class="phpdocumentor-signature__default-value">null</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -649,8 +802,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">37</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">40</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Container.</p>
 
@@ -660,8 +814,8 @@
     <span class="phpdocumentor-signature__name">$container</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -681,8 +835,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/AbstractGraphic.php"><a href="files/src-phppresentation-shape-abstractgraphic.html"><abbr title="src/PhpPresentation/Shape/AbstractGraphic.php">AbstractGraphic.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">55</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">57</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Description.</p>
 
@@ -692,8 +847,8 @@
     <span class="phpdocumentor-signature__name">$description</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -713,8 +868,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">65</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">68</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Height.</p>
 
@@ -724,8 +880,8 @@
     <span class="phpdocumentor-signature__name">$height</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -745,8 +901,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">96</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">99</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
@@ -755,8 +912,8 @@
     <span class="phpdocumentor-signature__name">$hyperlink</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -776,8 +933,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/AbstractGraphic.php"><a href="files/src-phppresentation-shape-abstractgraphic.html"><abbr title="src/PhpPresentation/Shape/AbstractGraphic.php">AbstractGraphic.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">48</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">50</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Name.</p>
 
@@ -787,8 +945,8 @@
     <span class="phpdocumentor-signature__name">$name</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -808,8 +966,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">44</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">47</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Offset X.</p>
 
@@ -819,8 +978,8 @@
     <span class="phpdocumentor-signature__name">$offsetX</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -840,8 +999,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">51</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">54</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Offset Y.</p>
 
@@ -851,8 +1011,8 @@
     <span class="phpdocumentor-signature__name">$offsetY</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -872,8 +1032,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">101</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">104</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
@@ -882,8 +1043,8 @@
     <span class="phpdocumentor-signature__name">$placeholder</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -903,8 +1064,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/AbstractGraphic.php"><a href="files/src-phppresentation-shape-abstractgraphic.html"><abbr title="src/PhpPresentation/Shape/AbstractGraphic.php">AbstractGraphic.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">62</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">64</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Proportional resize.</p>
 
@@ -914,8 +1076,8 @@
     <span class="phpdocumentor-signature__name">$resizeProportional</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -935,8 +1097,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">84</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">87</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Rotation.</p>
 
@@ -946,8 +1109,8 @@
     <span class="phpdocumentor-signature__name">$rotation</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -967,8 +1130,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">91</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">94</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Shadow.</p>
 
@@ -978,8 +1142,8 @@
     <span class="phpdocumentor-signature__name">$shadow</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -999,8 +1163,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">58</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">61</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Width.</p>
 
@@ -1010,8 +1175,8 @@
     <span class="phpdocumentor-signature__name">$width</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -1031,8 +1196,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">77</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">80</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Border.</p>
 
@@ -1042,8 +1208,41 @@
     <span class="phpdocumentor-signature__name">$border</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
+    
+    
+    
 
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -private
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_displayBlankAs">
+        $displayBlankAs
+        <a href="classes/PhpOffice-PhpPresentation-Shape-Chart.html#property_displayBlankAs" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart.php"><a href="files/src-phppresentation-shape-chart.html"><abbr title="src/PhpPresentation/Shape/Chart.php">Chart.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">78</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">How to display blank (missing) values? Not set by default.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">private</span>
+        <span class="phpdocumentor-signature__type">string</span>
+    <span class="phpdocumentor-signature__name">$displayBlankAs</span>
+     = <span class="phpdocumentor-signature__default-value">self::BLANKAS_ZERO</span></code>
+
+    
+    
     
 
 </article>
@@ -1063,8 +1262,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">70</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">73</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
@@ -1073,8 +1273,8 @@
     <span class="phpdocumentor-signature__name">$fill</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -1094,8 +1294,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">108</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">111</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Hash index.</p>
 
@@ -1105,8 +1306,8 @@
     <span class="phpdocumentor-signature__name">$hashIndex</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -1126,8 +1327,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/AbstractGraphic.php"><a href="files/src-phppresentation-shape-abstractgraphic.html"><abbr title="src/PhpPresentation/Shape/AbstractGraphic.php">AbstractGraphic.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">36</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Image counter.</p>
 
@@ -1137,8 +1339,8 @@
     <span class="phpdocumentor-signature__name">$imageCounter</span>
      = <span class="phpdocumentor-signature__default-value">0</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -1158,8 +1360,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/AbstractGraphic.php"><a href="files/src-phppresentation-shape-abstractgraphic.html"><abbr title="src/PhpPresentation/Shape/AbstractGraphic.php">AbstractGraphic.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">41</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">43</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Image index.</p>
 
@@ -1169,8 +1372,8 @@
     <span class="phpdocumentor-signature__name">$imageIndex</span>
      = <span class="phpdocumentor-signature__default-value">0</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -1190,10 +1393,11 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart.php"><a href="files/src-phppresentation-shape-chart.html"><abbr title="src/PhpPresentation/Shape/Chart.php">Chart.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">65</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">71</span>
 
-        <p class="phpdocumentor-summary">Include spreadsheet for editing data? Requires PHPExcel in the same folder as PhpPresentation.</p>
+    </aside>
+
+        <p class="phpdocumentor-summary">Is the spreadsheet included for editing data ?</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">private</span>
@@ -1201,8 +1405,8 @@
     <span class="phpdocumentor-signature__name">$includeSpreadsheet</span>
      = <span class="phpdocumentor-signature__default-value">false</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -1222,8 +1426,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart.php"><a href="files/src-phppresentation-shape-chart.html"><abbr title="src/PhpPresentation/Shape/Chart.php">Chart.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">44</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">50</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Legend.</p>
 
@@ -1233,8 +1438,8 @@
     <span class="phpdocumentor-signature__name">$legend</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -1254,8 +1459,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart.php"><a href="files/src-phppresentation-shape-chart.html"><abbr title="src/PhpPresentation/Shape/Chart.php">Chart.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">51</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">57</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Plot area.</p>
 
@@ -1265,8 +1471,8 @@
     <span class="phpdocumentor-signature__name">$plotArea</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -1286,8 +1492,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart.php"><a href="files/src-phppresentation-shape-chart.html"><abbr title="src/PhpPresentation/Shape/Chart.php">Chart.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">37</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">43</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Title.</p>
 
@@ -1297,8 +1504,8 @@
     <span class="phpdocumentor-signature__name">$title</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -1318,8 +1525,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart.php"><a href="files/src-phppresentation-shape-chart.html"><abbr title="src/PhpPresentation/Shape/Chart.php">Chart.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">58</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">64</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">View 3D.</p>
 
@@ -1329,8 +1537,8 @@
     <span class="phpdocumentor-signature__name">$view3D</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -1354,8 +1562,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart.php"><a href="files/src-phppresentation-shape-chart.html"><abbr title="src/PhpPresentation/Shape/Chart.php">Chart.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">82</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">95</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Magic Method : clone.</p>
 
@@ -1363,16 +1572,14 @@
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">__clone</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1388,8 +1595,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart.php"><a href="files/src-phppresentation-shape-chart.html"><abbr title="src/PhpPresentation/Shape/Chart.php">Chart.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">70</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">83</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Create a new Chart.</p>
 
@@ -1397,16 +1605,14 @@
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">__construct</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1422,23 +1628,24 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">318</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">321</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getBorder</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-Style-Border.html"><abbr title="\PhpOffice\PhpPresentation\Style\Border">Border</abbr></a></span></code>
 
-    
+        <section class="phpdocumentor-description"></section>
+
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-Style-Border.html"><abbr title="\PhpOffice\PhpPresentation\Style\Border">Border</abbr></a></span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1454,8 +1661,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">136</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">139</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Get Container, Slide or Group.</p>
 
@@ -1463,16 +1671,14 @@
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getContainer</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-ShapeContainerInterface.html"><abbr title="\PhpOffice\PhpPresentation\ShapeContainerInterface">ShapeContainerInterface</abbr></a>|null</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-ShapeContainerInterface.html"><abbr title="\PhpOffice\PhpPresentation\ShapeContainerInterface">ShapeContainerInterface</abbr></a>|null</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1488,8 +1694,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/AbstractGraphic.php"><a href="files/src-phppresentation-shape-abstractgraphic.html"><abbr title="src/PhpPresentation/Shape/AbstractGraphic.php">AbstractGraphic.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">136</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">138</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Get Description.</p>
 
@@ -1497,16 +1704,47 @@
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getDescription</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">string</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_getDisplayBlankAs">
+        getDisplayBlankAs()
+        <a href="classes/PhpOffice-PhpPresentation-Shape-Chart.html#method_getDisplayBlankAs" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart.php"><a href="files/src-phppresentation-shape-chart.html"><abbr title="src/PhpPresentation/Shape/Chart.php">Chart.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">110</span>
 
+    </aside>
+
+        <p class="phpdocumentor-summary">How missing/blank values are displayed on chart (dispBlanksAs property)</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getDisplayBlankAs</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">string</span>
+            &mdash;
+        
     
 </article>
                     <article
@@ -1522,23 +1760,24 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">306</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">309</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getFill</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-Style-Fill.html"><abbr title="\PhpOffice\PhpPresentation\Style\Fill">Fill</abbr></a>|null</span></code>
 
-    
+        <section class="phpdocumentor-description"></section>
+
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-Style-Fill.html"><abbr title="\PhpOffice\PhpPresentation\Style\Fill">Fill</abbr></a>|null</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1554,8 +1793,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart.php"><a href="files/src-phppresentation-shape-chart.html"><abbr title="src/PhpPresentation/Shape/Chart.php">Chart.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">171</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">210</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Get hash code.</p>
 
@@ -1563,8 +1803,7 @@
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getHashCode</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
@@ -1589,8 +1828,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">394</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">391</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Get hash index.</p>
 
@@ -1626,8 +1866,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">252</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">255</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Get Height.</p>
 
@@ -1635,16 +1876,14 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getHeight</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">int</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1660,40 +1899,24 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">355</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">354</span>
 
-        <p class="phpdocumentor-summary">Get Hyperlink.</p>
+    </aside>
+
+        <p class="phpdocumentor-summary">Get Hyperlink</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getHyperlink</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-Shape-Hyperlink.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Hyperlink">Hyperlink</abbr></a></span></code>
 
-        <section class="phpdocumentor-description"></section>
-
     
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
-                                                            
-                                                 <section class="phpdocumentor-description"></section>
-
-                                    </dd>
-                        </dl>
+    
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-Shape-Hyperlink.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Hyperlink">Hyperlink</abbr></a></span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1709,8 +1932,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/AbstractGraphic.php"><a href="files/src-phppresentation-shape-abstractgraphic.html"><abbr title="src/PhpPresentation/Shape/AbstractGraphic.php">AbstractGraphic.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">102</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">104</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Get image index.</p>
 
@@ -1718,16 +1942,14 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getImageIndex</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">int</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1743,8 +1965,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart.php"><a href="files/src-phppresentation-shape-chart.html"><abbr title="src/PhpPresentation/Shape/Chart.php">Chart.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">161</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">200</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Get indexed filename (using image index).</p>
 
@@ -1752,16 +1975,14 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getIndexedFilename</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">string</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1777,8 +1998,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart.php"><a href="files/src-phppresentation-shape-chart.html"><abbr title="src/PhpPresentation/Shape/Chart.php">Chart.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">107</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">130</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Get Legend.</p>
 
@@ -1786,16 +2008,14 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getLegend</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Legend.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Chart\Legend">Legend</abbr></a></span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Legend.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Chart\Legend">Legend</abbr></a></span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1811,8 +2031,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/AbstractGraphic.php"><a href="files/src-phppresentation-shape-abstractgraphic.html"><abbr title="src/PhpPresentation/Shape/AbstractGraphic.php">AbstractGraphic.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">112</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">114</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Get Name.</p>
 
@@ -1820,16 +2041,14 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getName</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">string</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1845,8 +2064,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">186</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">189</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Get OffsetX.</p>
 
@@ -1854,16 +2074,14 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getOffsetX</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">int</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1879,8 +2097,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">208</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">211</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Get OffsetY.</p>
 
@@ -1888,16 +2107,14 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getOffsetY</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">int</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1913,23 +2130,24 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">421</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">418</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getPlaceholder</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-Shape-Placeholder.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Placeholder">Placeholder</abbr></a>|null</span></code>
 
-    
+        <section class="phpdocumentor-description"></section>
+
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-Shape-Placeholder.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Placeholder">Placeholder</abbr></a>|null</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1945,8 +2163,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart.php"><a href="files/src-phppresentation-shape-chart.html"><abbr title="src/PhpPresentation/Shape/Chart.php">Chart.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">117</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">140</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Get PlotArea.</p>
 
@@ -1954,16 +2173,14 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getPlotArea</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-Shape-Chart-PlotArea.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Chart\PlotArea">PlotArea</abbr></a></span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-Shape-Chart-PlotArea.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Chart\PlotArea">PlotArea</abbr></a></span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1979,8 +2196,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">287</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">290</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Get Rotation.</p>
 
@@ -1988,16 +2206,14 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getRotation</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">int</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2013,23 +2229,24 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">323</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">326</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getShadow</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-Style-Shadow.html"><abbr title="\PhpOffice\PhpPresentation\Style\Shadow">Shadow</abbr></a>|null</span></code>
 
-    
+        <section class="phpdocumentor-description"></section>
+
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-Style-Shadow.html"><abbr title="\PhpOffice\PhpPresentation\Style\Shadow">Shadow</abbr></a>|null</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2045,8 +2262,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart.php"><a href="files/src-phppresentation-shape-chart.html"><abbr title="src/PhpPresentation/Shape/Chart.php">Chart.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">97</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">120</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Get Title.</p>
 
@@ -2054,16 +2272,14 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getTitle</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Title.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Chart\Title">Title</abbr></a></span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Title.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Chart\Title">Title</abbr></a></span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2079,8 +2295,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart.php"><a href="files/src-phppresentation-shape-chart.html"><abbr title="src/PhpPresentation/Shape/Chart.php">Chart.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">127</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">150</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Get View3D.</p>
 
@@ -2088,16 +2305,14 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getView3D</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-Shape-Chart-View3D.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Chart\View3D">View3D</abbr></a></span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-Shape-Chart-View3D.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Chart\View3D">View3D</abbr></a></span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2113,8 +2328,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">230</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">233</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Get Width.</p>
 
@@ -2122,16 +2338,14 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getWidth</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">int</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2147,8 +2361,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">345</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">346</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Has Hyperlink?</p>
 
@@ -2156,16 +2371,14 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">hasHyperlink</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">bool</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2181,25 +2394,24 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart.php"><a href="files/src-phppresentation-shape-chart.html"><abbr title="src/PhpPresentation/Shape/Chart.php">Chart.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">137</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">160</span>
 
-        <p class="phpdocumentor-summary">Include spreadsheet for editing data? Requires PHPExcel in the same folder as PhpPresentation.</p>
+    </aside>
+
+        <p class="phpdocumentor-summary">Is the spreadsheet included for editing data ?</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">hasIncludedSpreadsheet</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">bool</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2215,23 +2427,24 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">416</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">413</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">isPlaceholder</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
-    
+        <section class="phpdocumentor-description"></section>
+
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">bool</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2247,8 +2460,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/AbstractGraphic.php"><a href="files/src-phppresentation-shape-abstractgraphic.html"><abbr title="src/PhpPresentation/Shape/AbstractGraphic.php">AbstractGraphic.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">222</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">224</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Get ResizeProportional.</p>
 
@@ -2256,16 +2470,14 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">isResizeProportional</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">bool</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2281,8 +2493,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">151</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">154</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Set Container, Slide or Group.</p>
 
@@ -2290,8 +2503,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setContainer</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-ShapeContainerInterface.html"><abbr title="\PhpOffice\PhpPresentation\ShapeContainerInterface">ShapeContainerInterface</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span class="phpdocumentor-signature__argument"><span>[</span><span>, </span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pOverrideOld</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">$this</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2299,8 +2511,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-ShapeContainerInterface.html"><abbr title="\PhpOffice\PhpPresentation\ShapeContainerInterface">ShapeContainerInterface</abbr></a></span>
                  = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$pOverrideOld</span>
@@ -2323,18 +2534,16 @@ while doing a write of a workbook and when changes are not allowed.</p>
                     <span class="phpdocumentor-tag__name">throws</span>
                 </dt>
                 <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
+                                                                <span class="phpdocumentor-tag-link"><a href="classes/PhpOffice-PhpPresentation-Exception-ShapeContainerAlreadyAssignedException.html"><abbr title="\PhpOffice\PhpPresentation\Exception\ShapeContainerAlreadyAssignedException">ShapeContainerAlreadyAssignedException</abbr></a></span>
                                                             
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                         </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">$this</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2350,8 +2559,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/AbstractGraphic.php"><a href="files/src-phppresentation-shape-abstractgraphic.html"><abbr title="src/PhpPresentation/Shape/AbstractGraphic.php">AbstractGraphic.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">148</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">150</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Set Description.</p>
 
@@ -2359,8 +2569,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setDescription</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">$this</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2368,8 +2577,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                  = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -2378,8 +2586,50 @@ while doing a write of a workbook and when changes are not allowed.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">$this</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setDisplayBlankAs">
+        setDisplayBlankAs()
+        <a href="classes/PhpOffice-PhpPresentation-Shape-Chart.html#method_setDisplayBlankAs" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart.php"><a href="files/src-phppresentation-shape-chart.html"><abbr title="src/PhpPresentation/Shape/Chart.php">Chart.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">172</span>
 
+    </aside>
+
+        <p class="phpdocumentor-summary">Define a way to display missing/blank values (dispBlanksAs property)</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setDisplayBlankAs</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$value</span>
+                : <span class="phpdocumentor-signature__argument__return-type">string</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+        
     
 </article>
                     <article
@@ -2395,15 +2645,17 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">311</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">314</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setFill</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Style-Fill.html"><abbr title="\PhpOffice\PhpPresentation\Style\Fill">Fill</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
-    
+        <section class="phpdocumentor-description"></section>
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2411,7 +2663,8 @@ while doing a write of a workbook and when changes are not allowed.</p>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Style-Fill.html"><abbr title="\PhpOffice\PhpPresentation\Style\Fill">Fill</abbr></a></span>
                  = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
             </dl>
 
@@ -2420,8 +2673,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">self</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2437,8 +2689,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">409</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">406</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Set hash index.</p>
 
@@ -2468,8 +2721,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">$this</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2485,8 +2737,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">262</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">265</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Set Height.</p>
 
@@ -2494,8 +2747,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setHeight</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">$this</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2503,7 +2755,8 @@ while doing a write of a workbook and when changes are not allowed.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
             </dl>
 
@@ -2512,8 +2765,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">$this</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2529,17 +2781,17 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">369</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">366</span>
 
-        <p class="phpdocumentor-summary">Set Hyperlink.</p>
+    </aside>
+
+        <p class="phpdocumentor-summary">Set Hyperlink</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setHyperlink</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Shape-Hyperlink.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Hyperlink">Hyperlink</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pHyperlink</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2547,32 +2799,17 @@ while doing a write of a workbook and when changes are not allowed.</p>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Shape-Hyperlink.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Hyperlink">Hyperlink</abbr></a></span>
                  = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
             </dl>
 
     
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
-                                                            
-                                                 <section class="phpdocumentor-description"></section>
-
-                                    </dd>
-                        </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">self</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2588,17 +2825,17 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart.php"><a href="files/src-phppresentation-shape-chart.html"><abbr title="src/PhpPresentation/Shape/Chart.php">Chart.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">149</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">188</span>
 
-        <p class="phpdocumentor-summary">Include spreadsheet for editing data? Requires PHPExcel in the same folder as PhpPresentation.</p>
+    </aside>
+
+        <p class="phpdocumentor-summary">Is the spreadsheet included for editing data ?</p>
 
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">setIncludeSpreadsheet</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-Shape-Chart.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Chart">Chart</abbr></a></span></code>
+                <span class="phpdocumentor-signature__name">setIncludeSpreadsheet</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">false</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2606,18 +2843,16 @@ while doing a write of a workbook and when changes are not allowed.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">bool</span>
                  = <span class="phpdocumentor-signature__argument__default-value">false</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-Shape-Chart.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Chart">Chart</abbr></a></span>
+    <span class="phpdocumentor-signature__response_type">self</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2633,8 +2868,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/AbstractGraphic.php"><a href="files/src-phppresentation-shape-abstractgraphic.html"><abbr title="src/PhpPresentation/Shape/AbstractGraphic.php">AbstractGraphic.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">124</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">126</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Set Name.</p>
 
@@ -2642,8 +2878,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setName</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">$this</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2651,8 +2886,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                  = <span class="phpdocumentor-signature__argument__default-value">&#039;&#039;</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -2661,8 +2895,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">$this</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2678,8 +2911,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">196</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">199</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Set OffsetX.</p>
 
@@ -2687,8 +2921,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setOffsetX</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">$this</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2696,7 +2929,8 @@ while doing a write of a workbook and when changes are not allowed.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
             </dl>
 
@@ -2705,8 +2939,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">$this</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2722,8 +2955,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">218</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">221</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Set OffsetY.</p>
 
@@ -2731,8 +2965,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setOffsetY</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">$this</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2740,7 +2973,8 @@ while doing a write of a workbook and when changes are not allowed.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
             </dl>
 
@@ -2749,8 +2983,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">$this</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2766,15 +2999,17 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">430</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">427</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setPlaceHolder</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Shape-Placeholder.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Placeholder">Placeholder</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$placeholder</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
-    
+        <section class="phpdocumentor-description"></section>
+
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2782,7 +3017,8 @@ while doing a write of a workbook and when changes are not allowed.</p>
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Shape-Placeholder.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Placeholder">Placeholder</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
             </dl>
 
@@ -2791,8 +3027,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">self</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2808,8 +3043,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/AbstractGraphic.php"><a href="files/src-phppresentation-shape-abstractgraphic.html"><abbr title="src/PhpPresentation/Shape/AbstractGraphic.php">AbstractGraphic.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">232</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">234</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Set ResizeProportional.</p>
 
@@ -2817,8 +3053,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setResizeProportional</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">bool&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">true</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2826,8 +3061,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">bool</span>
                  = <span class="phpdocumentor-signature__argument__default-value">true</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -2836,8 +3070,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">self</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -2853,8 +3086,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">299</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">302</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Set Rotation.</p>
 
@@ -2862,8 +3096,93 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setRotation</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">$this</span></code>
 
-        <section class="phpdocumentor-description"></section>
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$pValue</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                
+            </dd>
+            </dl>
 
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">$this</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setShadow">
+        setShadow()
+        <a href="classes/PhpOffice-PhpPresentation-AbstractShape.html#method_setShadow" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">334</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setShadow</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Style-Shadow.html"><abbr title="\PhpOffice\PhpPresentation\Style\Shadow">Shadow</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">$this</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$pValue</span>
+                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Style-Shadow.html"><abbr title="\PhpOffice\PhpPresentation\Style\Shadow">Shadow</abbr></a></span>
+                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"></section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">$this</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setWidth">
+        setWidth()
+        <a href="classes/PhpOffice-PhpPresentation-AbstractShape.html#method_setWidth" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">243</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Set Width.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setWidth</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">$this</span></code>
+
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -2881,110 +3200,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">$this</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_setShadow">
-        setShadow()
-        <a href="classes/PhpOffice-PhpPresentation-AbstractShape.html#method_setShadow" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">333</span>
-</aside>
-
-    
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">setShadow</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Style-Shadow.html"><abbr title="\PhpOffice\PhpPresentation\Style\Shadow">Shadow</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">null</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">$this</span></code>
-
-        <section class="phpdocumentor-description"></section>
-
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$pValue</span>
-                : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Style-Shadow.html"><abbr title="\PhpOffice\PhpPresentation\Style\Shadow">Shadow</abbr></a></span>
-                 = <span class="phpdocumentor-signature__argument__default-value">null</span>            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-    <h5 class="phpdocumentor-tag-list__heading" id="tags">
-        Tags
-        <a href="#tags" class="headerlink"><i class="fas fa-link"></i></a>
-    </h5>
-    <dl class="phpdocumentor-tag-list">
-                                    <dt class="phpdocumentor-tag-list__entry">
-                    <span class="phpdocumentor-tag__name">throws</span>
-                </dt>
-                <dd class="phpdocumentor-tag-list__definition">
-                                                                <span class="phpdocumentor-tag-link"><abbr title="\Exception">Exception</abbr></span>
-                                                            
-                                                 <section class="phpdocumentor-description"></section>
-
-                                    </dd>
-                        </dl>
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">$this</span>
-            &mdash;
-            <section class="phpdocumentor-description"></section>
-
-    
-</article>
-                    <article
-        class="phpdocumentor-element
-            -method
-            -public
-                                                        "
->
-    <h4 class="phpdocumentor-element__name" id="method_setWidth">
-        setWidth()
-        <a href="classes/PhpOffice-PhpPresentation-AbstractShape.html#method_setWidth" class="headerlink"><i class="fas fa-link"></i></a>
-    </h4>
-    <aside class="phpdocumentor-element-found-in">
-    <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
-    :
-    <span class="phpdocumentor-element-found-in__line">240</span>
-</aside>
-
-        <p class="phpdocumentor-summary">Set Width.</p>
-
-    <code class="phpdocumentor-code phpdocumentor-signature ">
-    <span class="phpdocumentor-signature__visibility">public</span>
-                <span class="phpdocumentor-signature__name">setWidth</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$pValue</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">$this</span></code>
-
-        <section class="phpdocumentor-description"></section>
-
-        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
-    <dl class="phpdocumentor-argument-list">
-                    <dt class="phpdocumentor-argument-list__entry">
-                <span class="phpdocumentor-signature__argument__name">$pValue</span>
-                : <span class="phpdocumentor-signature__argument__return-type">int</span>
-                            </dt>
-            <dd class="phpdocumentor-argument-list__definition">
-                
-            </dd>
-            </dl>
-
-    
-
-        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
-    <span class="phpdocumentor-signature__response_type">$this</span>
-            &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -3000,8 +3216,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/AbstractShape.php"><a href="files/src-phppresentation-abstractshape.html"><abbr title="src/PhpPresentation/AbstractShape.php">AbstractShape.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">274</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">277</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Set width and height with proportional resize.</p>
 
@@ -3009,8 +3226,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setWidthAndHeight</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$width</span></span><span class="phpdocumentor-signature__argument"><span>, </span><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$height</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -3018,14 +3234,16 @@ while doing a write of a workbook and when changes are not allowed.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
                     <dt class="phpdocumentor-argument-list__entry">
                 <span class="phpdocumentor-signature__argument__name">$height</span>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
             </dl>
 
@@ -3034,11 +3252,72 @@ while doing a write of a workbook and when changes are not allowed.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">self</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
             </section>
+
+        
+    <script type="text/javascript">
+        function loadExternalCodeSnippets(line) {
+            Array.prototype.slice.call(document.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                var src = pre.getAttribute('data-src').replace( /\\/g, '/');
+                var extension = (src.match(/\.(\w+)$/) || [, ''])[1];
+                var language = 'php';
+
+                var code = document.createElement('code');
+                code.className = 'language-' + language;
+
+                pre.textContent = '';
+
+                pre.setAttribute('data-line', line)
+                code.textContent = 'Loading…';
+
+                pre.appendChild(code);
+
+                var xhr = new XMLHttpRequest();
+
+                xhr.open('GET', src, true);
+
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState == 4) {
+
+                        if (xhr.status < 400 && xhr.responseText) {
+                            code.textContent = xhr.responseText;
+
+                            Prism.highlightElement(code);
+                        }
+                        else if (xhr.status >= 400) {
+                            code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                        }
+                        else {
+                            code.textContent = '✖ Error: File does not exist, is empty or trying to view from localhost';
+                        }
+                    }
+                };
+
+                xhr.send(null);
+            });
+        }
+
+        var modals = document.querySelectorAll("[data-modal]");
+
+        modals.forEach(function (trigger) {
+            trigger.addEventListener("click", function (event) {
+                //event.preventDefault();
+                const modal = document.getElementById(trigger.dataset.modal);
+                modal.classList.add("phpdocumentor-modal__open");
+                loadExternalCodeSnippets(trigger.dataset.line)
+                const exits = modal.querySelectorAll("[data-exit-button]");
+                exits.forEach(function (exit) {
+                    exit.addEventListener("click", function (event) {
+                        event.preventDefault();
+                        modal.classList.remove("phpdocumentor-modal__open");
+                    });
+                });
+            });
+        });
+    </script>
 
     </article>
                 <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
@@ -3061,5 +3340,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <script>
         cssVars({});
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.min.js"></script>
 </body>
 </html>

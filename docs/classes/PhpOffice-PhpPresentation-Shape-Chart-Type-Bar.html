@@ -8,12 +8,16 @@
     <link rel="icon" href="images/favicon.ico"/>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/base.css">
-            <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;600;700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="css/template.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/css/all.min.css" integrity="sha256-ybRkN9dBjhcS2qrW1z+hfCxq+1aBdwyQM5wlQoQVt/0=" crossorigin="anonymous" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/themes/prism-okaidia.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.css">
                 <script src="https://cdn.jsdelivr.net/npm/fuse.js@3.4.6"></script>
         <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@2"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0/js/all.min.js" integrity="sha256-0vuk8LXoyrmCjp1f0O300qo1M75ZQyhH9X3J6d+scmk=" crossorigin="anonymous"></script>
         <script src="js/search.js"></script>
         <script defer src="js/searchIndex.js"></script>
     </head>
@@ -48,16 +52,23 @@
     Menu
 </label>
 <aside class="phpdocumentor-column -four phpdocumentor-sidebar">
-    
-    <section class="phpdocumentor-sidebar__category">
-        <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
-                                                <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/phpoffice.html"><abbr title="\PhpOffice">PhpOffice</abbr></a></h4>
-                <ul class="phpdocumentor-list">
-                                            <li><a href="namespaces/phpoffice-phppresentation.html"><abbr title="\PhpOffice\PhpPresentation">PhpPresentation</abbr></a></li>
-                                    </ul>
-                        </section>
+                    <section class="phpdocumentor-sidebar__category">
+            <h2 class="phpdocumentor-sidebar__category-header">Namespaces</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace"><a href="namespaces/phpoffice.html">PhpOffice</a></h4>
+    <ul class="phpdocumentor-list">
+                    <li>
+                <a href="namespaces/phpoffice-phppresentation.html">PhpPresentation</a>
+                
+            </li>
+            </ul>
 
-    
+                        </section>
+                <section class="phpdocumentor-sidebar__category">
+            <h2 class="phpdocumentor-sidebar__category-header">Packages</h2>
+                                    <h4 class="phpdocumentor-sidebar__root-namespace"><a href="packages/Application.html">Application</a></h4>
+
+                        </section>
+            
     <section class="phpdocumentor-sidebar__category">
         <h2 class="phpdocumentor-sidebar__category-header">Reports</h2>
                 <h3 class="phpdocumentor-sidebar__root-package"><a href="reports/deprecated.html">Deprecated</a></h3>
@@ -88,6 +99,12 @@
         extends <a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractTypeBar.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Chart\Type\AbstractTypeBar">AbstractTypeBar</abbr></a>
     </span>
     
+            <div class="phpdocumentor-element__package">
+            in package
+            <ul class="phpdocumentor-breadcrumbs">
+                                    <li class="phpdocumentor-breadcrumb"><a href="packages/Application.html">Application</a></li>
+                            </ul>
+        </div>
     
             <span class="phpdocumentor-element__implements">
             implements
@@ -98,12 +115,12 @@
         <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/Bar.php"><a href="files/src-phppresentation-shape-chart-type-bar.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/Bar.php">Bar.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">26</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">28</span>
+
+    </aside>
 
             <p class="phpdocumentor-summary">\PhpOffice\PhpPresentation\Shape\Chart\Type\Bar.</p>
 
-    <section class="phpdocumentor-description"></section>
 
 
 
@@ -199,6 +216,13 @@
 </dt>
 <dd>Has Axis Y?</dd>
 
+            <dt class="phpdocumentor-table-of-contents__entry -property -protected">
+    <a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractTypeBar.html#property_overlapWidthPercent">$overlapWidthPercent</a>
+    <span>
+                &nbsp;: int            </span>
+</dt>
+<dd>Overlap within bar or columns clusters. Value between 100 and -100 percent.</dd>
+
             <dt class="phpdocumentor-table-of-contents__entry -property -private">
     <a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractType.html#property_hashIndex">$hashIndex</a>
     <span>
@@ -263,6 +287,13 @@
 <dd>Get hash index.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractTypeBar.html#method_getOverlapWidthPercent">getOverlapWidthPercent()</a>
+    <span>
+                        &nbsp;: int    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractType.html#method_getSeries">getSeries()</a>
     <span>
                         &nbsp;: array&lt;int, <a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Series.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Chart\Series">Series</abbr></a>&gt;    </span>
@@ -312,6 +343,13 @@
 <dd>Set hash index.</dd>
 
             <dt class="phpdocumentor-table-of-contents__entry -method -public">
+    <a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractTypeBar.html#method_setOverlapWidthPercent">setOverlapWidthPercent()</a>
+    <span>
+                        &nbsp;: self    </span>
+</dt>
+<dd></dd>
+
+            <dt class="phpdocumentor-table-of-contents__entry -method -public">
     <a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractType.html#method_setSeries">setSeries()</a>
     <span>
                         &nbsp;: $this    </span>
@@ -337,8 +375,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php"><a href="files/src-phppresentation-shape-chart-type-abstracttypebar.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php">AbstractTypeBar.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">28</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">30</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
@@ -349,7 +388,10 @@
 </code>
 
 
-    
+        <section class="phpdocumentor-description"></section>
+
+        <section class="phpdocumentor-description"></section>
+
     
 
 </article>
@@ -362,8 +404,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php"><a href="files/src-phppresentation-shape-chart-type-abstracttypebar.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php">AbstractTypeBar.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">27</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">29</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Orientation of bars</p>
 
@@ -375,6 +418,7 @@
 </code>
 
 
+    
         <section class="phpdocumentor-description"></section>
 
     
@@ -389,8 +433,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php"><a href="files/src-phppresentation-shape-chart-type-abstracttypebar.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php">AbstractTypeBar.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">31</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">33</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Grouping of bars</p>
 
@@ -402,6 +447,7 @@
 </code>
 
 
+    
         <section class="phpdocumentor-description"></section>
 
     
@@ -416,8 +462,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php"><a href="files/src-phppresentation-shape-chart-type-abstracttypebar.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php">AbstractTypeBar.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">33</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">35</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
@@ -428,7 +475,10 @@
 </code>
 
 
-    
+        <section class="phpdocumentor-description"></section>
+
+        <section class="phpdocumentor-description"></section>
+
     
 
 </article>
@@ -441,8 +491,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php"><a href="files/src-phppresentation-shape-chart-type-abstracttypebar.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php">AbstractTypeBar.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">32</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">34</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-signature phpdocumentor-code ">
@@ -453,7 +504,10 @@
 </code>
 
 
-    
+        <section class="phpdocumentor-description"></section>
+
+        <section class="phpdocumentor-description"></section>
+
     
 
 </article>
@@ -481,8 +535,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php"><a href="files/src-phppresentation-shape-chart-type-abstracttypebar.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php">AbstractTypeBar.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">40</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">42</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Orientation of bars.</p>
 
@@ -492,8 +547,8 @@
     <span class="phpdocumentor-signature__name">$barDirection</span>
      = <span class="phpdocumentor-signature__default-value">self::DIRECTION_VERTICAL</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -513,8 +568,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php"><a href="files/src-phppresentation-shape-chart-type-abstracttypebar.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php">AbstractTypeBar.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">47</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">49</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Grouping of bars.</p>
 
@@ -524,8 +580,8 @@
     <span class="phpdocumentor-signature__name">$barGrouping</span>
      = <span class="phpdocumentor-signature__default-value">self::GROUPING_CLUSTERED</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -545,8 +601,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php"><a href="files/src-phppresentation-shape-chart-type-abstracttypebar.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php">AbstractTypeBar.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">54</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">56</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Space between bar or columns clusters.</p>
 
@@ -556,8 +613,8 @@
     <span class="phpdocumentor-signature__name">$gapWidthPercent</span>
      = <span class="phpdocumentor-signature__default-value">150</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -577,8 +634,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractType.php"><a href="files/src-phppresentation-shape-chart-type-abstracttype.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractType.php">AbstractType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">34</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">36</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Has Axis X?</p>
 
@@ -588,8 +646,8 @@
     <span class="phpdocumentor-signature__name">$hasAxisX</span>
      = <span class="phpdocumentor-signature__default-value">true</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -609,8 +667,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractType.php"><a href="files/src-phppresentation-shape-chart-type-abstracttype.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractType.php">AbstractType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">41</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">43</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Has Axis Y?</p>
 
@@ -620,8 +679,43 @@
     <span class="phpdocumentor-signature__name">$hasAxisY</span>
      = <span class="phpdocumentor-signature__default-value">true</span></code>
 
-        <section class="phpdocumentor-description"></section>
+    
+    
+    
 
+</article>
+                    <article
+        class="
+            phpdocumentor-element
+            -property
+            -protected
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="property_overlapWidthPercent">
+        $overlapWidthPercent
+        <a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractTypeBar.html#property_overlapWidthPercent" class="headerlink"><i class="fas fa-link"></i></a>
+        <span class="phpdocumentor-element__modifiers">
+                                </span>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php"><a href="files/src-phppresentation-shape-chart-type-abstracttypebar.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php">AbstractTypeBar.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">64</span>
+
+    </aside>
+
+        <p class="phpdocumentor-summary">Overlap within bar or columns clusters. Value between 100 and -100 percent.</p>
+
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">protected</span>
+        <span class="phpdocumentor-signature__type">int</span>
+    <span class="phpdocumentor-signature__name">$overlapWidthPercent</span>
+     = <span class="phpdocumentor-signature__default-value">0</span></code>
+
+        <section class="phpdocumentor-description"><p>For stacked bar charts, the default overlap will be 100, for grouped bar charts 0.</p>
+</section>
+
+    
     
 
 </article>
@@ -641,8 +735,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractType.php"><a href="files/src-phppresentation-shape-chart-type-abstracttype.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractType.php">AbstractType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">48</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">50</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Hash index.</p>
 
@@ -652,8 +747,8 @@
     <span class="phpdocumentor-signature__name">$hashIndex</span>
     </code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -673,8 +768,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractType.php"><a href="files/src-phppresentation-shape-chart-type-abstracttype.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractType.php">AbstractType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">53</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">55</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
@@ -683,8 +779,8 @@
     <span class="phpdocumentor-signature__name">$series</span>
      = <span class="phpdocumentor-signature__default-value">[]</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
+    
     
 
 </article>
@@ -708,16 +804,16 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractType.php"><a href="files/src-phppresentation-shape-chart-type-abstracttype.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractType.php">AbstractType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">140</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">142</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">__clone</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">mixed</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
     <h5 class="phpdocumentor-tag-list__heading" id="tags">
@@ -731,16 +827,14 @@
                 <dd class="phpdocumentor-tag-list__definition">
                                                                                     <span class="phpdocumentor-tag-link"><a href="http://php.net/manual/en/language.oop5.cloning.php"><abbr title="http://php.net/manual/en/language.oop5.cloning.php">http://php.net/manual/en/language.oop5.cloning.php</abbr></a></span>
                                         
-                                                 <section class="phpdocumentor-description"></section>
-
+                                             
                                     </dd>
                         </dl>
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">mixed</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -756,8 +850,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractType.php"><a href="files/src-phppresentation-shape-chart-type-abstracttype.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractType.php">AbstractType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">106</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">108</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Add Series.</p>
 
@@ -765,8 +860,7 @@
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">addSeries</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Series.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Chart\Series">Series</abbr></a>&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">$this</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -774,7 +868,8 @@
                 : <span class="phpdocumentor-signature__argument__return-type"><a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Series.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Chart\Series">Series</abbr></a></span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                
+                    <section class="phpdocumentor-description"></section>
+
             </dd>
             </dl>
 
@@ -783,8 +878,7 @@
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">$this</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -800,8 +894,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php"><a href="files/src-phppresentation-shape-chart-type-abstracttypebar.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php">AbstractTypeBar.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">75</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">85</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Get orientation.</p>
 
@@ -809,16 +904,14 @@
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getBarDirection</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">string</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -834,8 +927,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php"><a href="files/src-phppresentation-shape-chart-type-abstracttypebar.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php">AbstractTypeBar.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">99</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">114</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Get grouping  (stack or expanded style bar).</p>
 
@@ -843,16 +937,14 @@
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getBarGrouping</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">string</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -868,24 +960,23 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php"><a href="files/src-phppresentation-shape-chart-type-abstracttypebar.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php">AbstractTypeBar.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">107</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">122</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getGapWidthPercent</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">int</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -901,8 +992,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/Bar.php"><a href="files/src-phppresentation-shape-chart-type-bar.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/Bar.php">Bar.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">33</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">35</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Get hash code.</p>
 
@@ -910,8 +1002,7 @@
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getHashCode</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">string</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
@@ -936,8 +1027,9 @@
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractType.php"><a href="files/src-phppresentation-shape-chart-type-abstracttype.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractType.php">AbstractType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">79</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">81</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Get hash index.</p>
 
@@ -966,6 +1058,38 @@ while doing a write of a workbook and when changes are not allowed.</p>
             -public
                                                         "
 >
+    <h4 class="phpdocumentor-element__name" id="method_getOverlapWidthPercent">
+        getOverlapWidthPercent()
+        <a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractTypeBar.html#method_getOverlapWidthPercent" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php"><a href="files/src-phppresentation-shape-chart-type-abstracttypebar.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php">AbstractTypeBar.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">148</span>
+
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">getOverlapWidthPercent</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">int</span></code>
+
+    
+    
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">int</span>
+            &mdash;
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
     <h4 class="phpdocumentor-element__name" id="method_getSeries">
         getSeries()
         <a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractType.html#method_getSeries" class="headerlink"><i class="fas fa-link"></i></a>
@@ -973,8 +1097,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractType.php"><a href="files/src-phppresentation-shape-chart-type-abstracttype.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractType.php">AbstractType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">118</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">120</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Get Series.</p>
 
@@ -982,16 +1107,14 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">getSeries</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">array&lt;int, <a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Series.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Chart\Series">Series</abbr></a>&gt;</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">array&lt;int, <a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Series.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Chart\Series">Series</abbr></a>&gt;</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1007,8 +1130,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractType.php"><a href="files/src-phppresentation-shape-chart-type-abstracttype.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractType.php">AbstractType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">58</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">60</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Has Axis X?</p>
 
@@ -1016,16 +1140,14 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">hasAxisX</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">bool</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1041,8 +1163,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractType.php"><a href="files/src-phppresentation-shape-chart-type-abstracttype.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractType.php">AbstractType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">66</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">68</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Has Axis Y?</p>
 
@@ -1050,16 +1173,14 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">hasAxisY</span><span>(</span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">bool</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
     
     
 
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">bool</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1075,8 +1196,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php"><a href="files/src-phppresentation-shape-chart-type-abstracttypebar.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php">AbstractTypeBar.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">63</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">73</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Set bar orientation.</p>
 
@@ -1084,8 +1206,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setBarDirection</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">self::DIRECTION_VERTICAL</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractTypeBar.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Chart\Type\AbstractTypeBar">AbstractTypeBar</abbr></a></span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1093,8 +1214,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                  = <span class="phpdocumentor-signature__argument__default-value">self::DIRECTION_VERTICAL</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -1103,8 +1223,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractTypeBar.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Chart\Type\AbstractTypeBar">AbstractTypeBar</abbr></a></span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1120,8 +1239,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php"><a href="files/src-phppresentation-shape-chart-type-abstracttypebar.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php">AbstractTypeBar.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">87</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">97</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Set bar grouping (stack or expanded style bar).</p>
 
@@ -1129,8 +1249,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setBarGrouping</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">string&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">self::GROUPING_CLUSTERED</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractTypeBar.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Chart\Type\AbstractTypeBar">AbstractTypeBar</abbr></a></span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1138,8 +1257,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">string</span>
                  = <span class="phpdocumentor-signature__argument__default-value">self::GROUPING_CLUSTERED</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -1148,8 +1266,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractTypeBar.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Chart\Type\AbstractTypeBar">AbstractTypeBar</abbr></a></span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1165,16 +1282,16 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php"><a href="files/src-phppresentation-shape-chart-type-abstracttypebar.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php">AbstractTypeBar.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">117</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">132</span>
+
+    </aside>
 
     
     <code class="phpdocumentor-code phpdocumentor-signature ">
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setGapWidthPercent</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$gapWidthPercent</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">$this</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1182,8 +1299,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">int</span>
                             </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -1192,8 +1308,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">$this</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
                     <article
@@ -1209,8 +1324,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractType.php"><a href="files/src-phppresentation-shape-chart-type-abstracttype.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractType.php">AbstractType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">94</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">96</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Set hash index.</p>
 
@@ -1240,8 +1356,51 @@ while doing a write of a workbook and when changes are not allowed.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type"><a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractType.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Chart\Type\AbstractType">AbstractType</abbr></a></span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
+        
+    
+</article>
+                    <article
+        class="phpdocumentor-element
+            -method
+            -public
+                                                        "
+>
+    <h4 class="phpdocumentor-element__name" id="method_setOverlapWidthPercent">
+        setOverlapWidthPercent()
+        <a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Type-AbstractTypeBar.html#method_setOverlapWidthPercent" class="headerlink"><i class="fas fa-link"></i></a>
+    </h4>
+    <aside class="phpdocumentor-element-found-in">
+    <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php"><a href="files/src-phppresentation-shape-chart-type-abstracttypebar.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractTypeBar.php">AbstractTypeBar.php</abbr></a></abbr>
+    :
+    <span class="phpdocumentor-element-found-in__line">158</span>
 
+    </aside>
+
+    
+    <code class="phpdocumentor-code phpdocumentor-signature ">
+    <span class="phpdocumentor-signature__visibility">public</span>
+                <span class="phpdocumentor-signature__name">setOverlapWidthPercent</span><span>(</span><span class="phpdocumentor-signature__argument"><span class="phpdocumentor-signature__argument__return-type">int&nbsp;</span><span class="phpdocumentor-signature__argument__name">$value</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">self</span></code>
+
+    
+        <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
+    <dl class="phpdocumentor-argument-list">
+                    <dt class="phpdocumentor-argument-list__entry">
+                <span class="phpdocumentor-signature__argument__name">$value</span>
+                : <span class="phpdocumentor-signature__argument__return-type">int</span>
+                            </dt>
+            <dd class="phpdocumentor-argument-list__definition">
+                    <section class="phpdocumentor-description"><p>overlap width percentage</p>
+</section>
+
+            </dd>
+            </dl>
+
+    
+
+        <h5 class="phpdocumentor-return-value__heading">Return values</h5>
+    <span class="phpdocumentor-signature__response_type">self</span>
+            &mdash;
+        
     
 </article>
                     <article
@@ -1257,8 +1416,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <aside class="phpdocumentor-element-found-in">
     <abbr class="phpdocumentor-element-found-in__file" title="src/PhpPresentation/Shape/Chart/Type/AbstractType.php"><a href="files/src-phppresentation-shape-chart-type-abstracttype.html"><abbr title="src/PhpPresentation/Shape/Chart/Type/AbstractType.php">AbstractType.php</abbr></a></abbr>
     :
-    <span class="phpdocumentor-element-found-in__line">130</span>
-</aside>
+    <span class="phpdocumentor-element-found-in__line">132</span>
+
+    </aside>
 
         <p class="phpdocumentor-summary">Set Series.</p>
 
@@ -1266,8 +1426,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <span class="phpdocumentor-signature__visibility">public</span>
                 <span class="phpdocumentor-signature__name">setSeries</span><span>(</span><span class="phpdocumentor-signature__argument"><span>[</span><span class="phpdocumentor-signature__argument__return-type">array&lt;int, <a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Series.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Chart\Series">Series</abbr></a>&gt;&nbsp;</span><span class="phpdocumentor-signature__argument__name">$series</span><span> = </span><span class="phpdocumentor-signature__argument__default-value">[]</span><span> ]</span></span><span>)</span><span> : </span><span class="phpdocumentor-signature__response_type">$this</span></code>
 
-        <section class="phpdocumentor-description"></section>
-
+    
         <h5 class="phpdocumentor-argument-list__heading">Parameters</h5>
     <dl class="phpdocumentor-argument-list">
                     <dt class="phpdocumentor-argument-list__entry">
@@ -1275,8 +1434,7 @@ while doing a write of a workbook and when changes are not allowed.</p>
                 : <span class="phpdocumentor-signature__argument__return-type">array&lt;int, <a href="classes/PhpOffice-PhpPresentation-Shape-Chart-Series.html"><abbr title="\PhpOffice\PhpPresentation\Shape\Chart\Series">Series</abbr></a>&gt;</span>
                  = <span class="phpdocumentor-signature__argument__default-value">[]</span>            </dt>
             <dd class="phpdocumentor-argument-list__definition">
-                    <section class="phpdocumentor-description"></section>
-
+                
             </dd>
             </dl>
 
@@ -1285,11 +1443,72 @@ while doing a write of a workbook and when changes are not allowed.</p>
         <h5 class="phpdocumentor-return-value__heading">Return values</h5>
     <span class="phpdocumentor-signature__response_type">$this</span>
             &mdash;
-            <section class="phpdocumentor-description"></section>
-
+        
     
 </article>
             </section>
+
+        
+    <script type="text/javascript">
+        function loadExternalCodeSnippets(line) {
+            Array.prototype.slice.call(document.querySelectorAll('pre[data-src]')).forEach((pre) => {
+                var src = pre.getAttribute('data-src').replace( /\\/g, '/');
+                var extension = (src.match(/\.(\w+)$/) || [, ''])[1];
+                var language = 'php';
+
+                var code = document.createElement('code');
+                code.className = 'language-' + language;
+
+                pre.textContent = '';
+
+                pre.setAttribute('data-line', line)
+                code.textContent = 'Loading…';
+
+                pre.appendChild(code);
+
+                var xhr = new XMLHttpRequest();
+
+                xhr.open('GET', src, true);
+
+                xhr.onreadystatechange = function () {
+                    if (xhr.readyState == 4) {
+
+                        if (xhr.status < 400 && xhr.responseText) {
+                            code.textContent = xhr.responseText;
+
+                            Prism.highlightElement(code);
+                        }
+                        else if (xhr.status >= 400) {
+                            code.textContent = '✖ Error ' + xhr.status + ' while fetching file: ' + xhr.statusText;
+                        }
+                        else {
+                            code.textContent = '✖ Error: File does not exist, is empty or trying to view from localhost';
+                        }
+                    }
+                };
+
+                xhr.send(null);
+            });
+        }
+
+        var modals = document.querySelectorAll("[data-modal]");
+
+        modals.forEach(function (trigger) {
+            trigger.addEventListener("click", function (event) {
+                //event.preventDefault();
+                const modal = document.getElementById(trigger.dataset.modal);
+                modal.classList.add("phpdocumentor-modal__open");
+                loadExternalCodeSnippets(trigger.dataset.line)
+                const exits = modal.querySelectorAll("[data-exit-button]");
+                exits.forEach(function (exit) {
+                    exit.addEventListener("click", function (event) {
+                        event.preventDefault();
+                        modal.classList.remove("phpdocumentor-modal__open");
+                    });
+                });
+            });
+        });
+    </script>
 
     </article>
                 <section data-search-results class="phpdocumentor-search-results phpdocumentor-search-results--hidden">
@@ -1312,5 +1531,9 @@ while doing a write of a workbook and when changes are not allowed.</p>
     <script>
         cssVars({});
     </script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/prism.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/autoloader/prism-autoloader.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-numbers/prism-line-numbers.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/prismjs@1.23.0/plugins/line-highlight/prism-line-highlight.min.js"></script>
 </body>
 </html>
